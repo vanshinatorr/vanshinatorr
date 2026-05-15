@@ -1,16 +1,27 @@
-## Hi there 👋
+<h1 align="center">Vansh Vijay</h1>
 
-<!--
-**vanshinatorr/vanshinatorr** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<p align="center">
+  Backend Developer • MERN Learner • DSA
+</p>
 
-Here are some ideas to get you started:
+<p align="center">
+  Building systems, solving problems, staying consistent.
+</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🚀 About Me
+
+- 🎓 3rd Year CSE Student
+- 💻 Learning Backend Development & MERN Stack
+- 🧠 Solving DSA problems consistently
+- ♟️ Chess Player • 1500 ELO
+- 🚀 Building ConsistPay
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,tailwind,ts,git,github,vscode" />
+</p>
