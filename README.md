@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="./banner.jpg" alt="Banner" />
+</p>
+
+
 <h1 align="center">Vansh Vijay</h1>
 
 <p align="center">
