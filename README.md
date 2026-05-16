@@ -1,5 +1,6 @@
 <p align="center">
-  <img src="./banner.png" alt="Banner" />
+  <!-- <img src="./banner.png" alt="Banner" /> -->
+  <img src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/main/banner.png" alt="Banner" />
 </p>
 
 <h1 align="center">Vansh Vijay</h1>
@@ -90,7 +91,7 @@ Task management app featuring dynamic DOM manipulation and local storage support
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/main/banner.png" alt="Banner" />
 </p>
 
 ---
