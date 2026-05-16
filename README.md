@@ -1,3 +1,4 @@
+
 <div align="center">
   
   <!-- Animated Banner -->
@@ -21,12 +22,12 @@
 
 ## 🚀 About Me
 
-```javascript
+
 const vansh = {
     pronouns: "He/Him",
     role: "Backend Developer",
     education: "Pre Final Year CSE Student",
-    location: "Jaipur",
+    location: "India",
     email: "vanshvijay9784@gmail.com",
     code: ["JavaScript", "TypeScript", "C++"],
     technologies: {
@@ -42,17 +43,12 @@ const vansh = {
     chessElo: 1500,
     funFact: "I debug with console.log and I'm not ashamed 😄"
 };
-```
-
-- 🎓 Pre Final Year CSE Student passionate about software engineering
-- 💻 Learning Backend Development & MERN Stack
-- 🧠 Solving DSA problems consistently | Chess Player • 1500 ELO
-- 🔥 Open to internships & collaboration opportunities
-- ⚡ Fun fact: I treat every bug as a puzzle waiting to be solved
-
----
-
-## 🌐 Connect With Me
+🎓 Pre Final Year CSE Student passionate about software engineering
+💻 Learning Backend Development & MERN Stack
+🧠 Solving DSA problems consistently | Chess Player • 1500 ELO
+🔥 Open to internships & collaboration opportunities
+⚡ Fun fact: I treat every bug as a puzzle waiting to be solved
+🌐 Connect With Me
 
 <p align="center">
   <a href="https://www.linkedin.com/in/vansh-vijay/" target="_blank">
@@ -74,35 +70,33 @@ const vansh = {
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
 </p>
+🛠️ Tech Stack
 
----
+Languages
 
-## 🛠️ Tech Stack
-
-### Languages
 <p>
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white" alt="C++" />
 </p>
+Frontend
 
-### Frontend
 <p>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3" />
   <img src="https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind" />
 </p>
+Backend & Database
 
-### Backend & Database
 <p>
   <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
   <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express" />
   <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB" />
   <img src="https://img.shields.io/badge/REST%20API-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="REST API" />
 </p>
+Tools & Platforms
 
-### Tools & Platforms
 <p>
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
@@ -110,48 +104,30 @@ const vansh = {
   <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
 </p>
-
----
-
-## 📊 GitHub Analytics
+📊 GitHub Analytics
 
 <div align="center">
-  
   <!-- GitHub Stats -->
-  <img src="https://github-readme-stats.vercel.app/api?username=vanshinatorr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9" alt="GitHub Stats" height="180px" />
-  
+  <img src="https://github-readme-stats.vercel.app/api?username=vanshinatorr&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8b5cf6&icon_color=8b5cf6&text_color=c9d1d9&cache_seconds=86400" alt="GitHub Stats" height="180px" />
   <!-- Top Languages -->
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshinatorr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8b5cf6&text_color=c9d1d9&langs_count=8" alt="Top Languages" height="180px" />
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshinatorr&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8b5cf6&text_color=c9d1d9&langs_count=8&cache_seconds=86400" alt="Top Languages" height="180px" />
 </div>
-
 <div align="center">
-  
   <!-- Streak Stats -->
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshinatorr&theme=tokyonight&hide_border=true&background=0D1117&stroke=8b5cf6&ring=8b5cf6&fire=ff6b6b&currStreakLabel=8b5cf6&sideLabels=c9d1d9&currStreakNum=c9d1d9&sideNums=c9d1d9" alt="GitHub Streak" width="100%" />
-
 </div>
-
 <div align="center">
-  
   <!-- Contribution Graph -->
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=8b5cf6&line=7c3aed&point=c4b5fd&area=true" alt="Contribution Graph" width="100%" />
-
 </div>
-
----
-
-## 🐍 Contribution Snake
+🐍 Contribution Snake
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" />
 </picture>
-
----
-
-## 🚀 Featured Projects
+🚀 Featured Projects
 
 <table>
   <tr>
@@ -215,24 +191,17 @@ const vansh = {
     </td>
   </tr>
 </table>
-
----
-
-## 🏆 GitHub Trophies
+🏆 GitHub Trophies
 
 <div align="center">
-  
   <img src="https://github-profile-trophy.vercel.app/?username=vanshinatorr&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&row=1" alt="GitHub Trophies" />
-
 </div>
-
----
-
-## ⚡ Mindset
+⚡ Mindset
 
 <div align="center">
+JavaScript
 
-```javascript
+Copy
 const vansh = {
     code: ["JavaScript", "TypeScript"],
     technologies: ["React", "Node.js", "MongoDB", "Express"],
@@ -255,24 +224,10 @@ while (alive) {
     code();
     improve();
 }
-```
-
 </div>
-
----
-
 <div align="center">
-  
   <!-- Footer Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:7c3aed&height=120&section=footer" width="100%" />
-  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8b5cf6,100:7c3aed&height=120&section=footer" width="100%" />
   <p><i>"The only way to do great work is to love what you do."</i></p>
-  
   <img src="https://img.shields.io/badge/Made%20with%20%E2%9D%A4%EF%B8%8F%20by-Vansh%20Vijay-8b5cf6?style=flat-square" alt="Made with love" />
-
 </div>
-```
-
----
-
-**Paste this entire block into `README.md` → Commit → Done.**
