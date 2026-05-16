@@ -91,11 +91,7 @@ Task management app featuring dynamic DOM manipulation and local storage support
 ## 🐍 Contribution Animations
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-snake.svg" />
-    <img alt="github contribution snake" src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-snake-dark.svg" />
-  </picture>
+  <img src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </p>
 
 <br/>
@@ -106,6 +102,7 @@ Task management app featuring dynamic DOM manipulation and local storage support
   </a>
 </p>
 
+---
 ---
 ---
 
