@@ -1,5 +1,4 @@
 <p align="center">
-  <!-- <img src="./banner.png" alt="Banner" /> -->
   <img src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/main/banner.png" alt="Banner" />
 </p>
 
@@ -75,11 +74,11 @@ Task management app featuring dynamic DOM manipulation and local storage support
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=vanshinatorr&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-stats.vercel.app/api?username=vanshinatorr&show_icons=true&theme=tokyonight&hide_border=true&cache_seconds=1800" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=vanshinatorr&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=vanshinatorr&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
@@ -102,8 +101,6 @@ Task management app featuring dynamic DOM manipulation and local storage support
   </a>
 </p>
 
----
----
 ---
 
 ## ⚡ Mindset
