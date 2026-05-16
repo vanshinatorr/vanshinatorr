@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./vansh banner.png" alt="Banner" />
+  <img src="./banner.png" alt="Banner" />
 </p>
 
 <h1 align="center">Vansh Vijay</h1>
