@@ -178,7 +178,7 @@ const vansh = {
       </div>
     </td>
 
-```
+
 <td width="50%">
   <h3 align="center">🧠 DSA Practice</h3>
   <div align="center">
@@ -190,7 +190,7 @@ const vansh = {
     </p>
   </div>
 </td>
-```
+
 
   </tr>
 </table>
