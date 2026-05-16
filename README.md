@@ -90,8 +90,10 @@ Task management app featuring dynamic DOM manipulation and local storage support
 
 ## 🐍 Contribution Snake
 
+## 🐍 Contribution Snake
+
 <p align="center">
-  <img src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/main/banner.png" alt="Banner" />
+  <img src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
