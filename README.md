@@ -11,7 +11,7 @@
 <a href="https://www.linkedin.com/in/vansh-vijay/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://daily-coding-habit-tracker.vercel.app"><img src="https://img.shields.io/badge/ConsistPay-Live-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 <a href="https://codolio.com/profile/vanshinatorr"><img src="https://img.shields.io/badge/Codolio-Top%2050%20%40%20JECRC-6C63FF?style=for-the-badge"/></a>
-<a href="https://leetcode.com/u/vanshinatorr/"><img src="https://img.shields.io/badge/LeetCode-111%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
+<a href="https://leetcode.com/u/vanshinatorr/"><img src="https://img.shields.io/badge/DSA-300+%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
 <a href="mailto:vanshvijay9784@gmail.com"><img src="https://img.shields.io/badge/Hire%20Me-Open%20to%20Internships-22C55E?style=for-the-badge"/></a>
 
 </div>
