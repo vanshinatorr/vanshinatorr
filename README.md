@@ -119,12 +119,22 @@ Actively documenting backend concepts — Node.js internals, Express patterns, R
 <div align="center">
 
 <img src="https://streak-stats.demolab.com?user=vanshinatorr&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="49%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=vanshinatorr&layout=compact&theme=tokyonight&hide_border=true&hide=typescript&langs_count=6&custom_title=Languages" width="40%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=vanshinatorr&layout=compact&theme=tokyonight&hide_border=true&hide=typescript&langs_count=6&custom_title=Languages" width="40%"/>
 
 </div>
 
 <div align="center">
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&bg_color=0d1117&color=a78bfa&line=7c3aed&point=c4b5fd&area=true&hide_border=true&custom_title=Contribution%20Activity" width="98%"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" />
+    <img alt="github-snake" src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" width="98%" />
+  </picture>
 </div>
 
 ---
