@@ -141,7 +141,7 @@ Actively documenting backend concepts — Node.js internals, Express patterns, R
 
 ## 🏆 Achievements
 
-- 🥇 **Top 50** coding profiles on Codolio among 2000+ students at JECRC
+- 🥇 **Top 30** coding profiles on Codolio among 2000+ students at JECRC
 - ♟️ **1500+ peak ELO** on Chess.com — Runner-Up in college chess tournament
 - 🧩 **300+ DSA problems** solved — Arrays, Trees, DP, Hashing, Recursion
 - 🚀 **Shipped a real product** (ConsistPay) with 60+ users and live Razorpay payments
