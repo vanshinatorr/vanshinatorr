@@ -12,11 +12,11 @@
 
 ---
 
-# 🛠️ SYSTEM SPECIFICATION: VANSH VIJAY
+# SYSTEM SPECIFICATION: VANSH VIJAY
 
 ---
 
-### ⚙️ Core Configuration
+### Core Configuration
 
 | Property | Configuration Value |
 | :--- | :--- |
@@ -27,9 +27,9 @@
 
 ---
 
-### 🚀 Production Modules
+### Production Modules
 
-### ⚡ `module/consistpay` — Coding Streak Platform (Live & Monetized)
+### `module/consistpay` — Coding Streak Platform (Live & Monetized)
 > **Stack**: Node.js, Express, MongoDB, Razorpay API, Google Gemini AI  
 > **Telemetry**: 60+ active users | Live transaction flow  
 > **Links**: [Live Platform](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
@@ -39,7 +39,7 @@ A production-deployed application designed to solve developer inconsistency usin
 - **Webhook Reliability**: Created a retry-tolerant webhook receiver for Razorpay payments, guaranteeing data persistence even during transient server drops.
 - **AI-Driven Activity Logs**: Embedded Google Gemini API to parse developer logs and generate customized feedback.
 
-### ♟️ `module/chess-multiplayer` — Real-Time WebSocket Lobby
+### `module/chess-multiplayer` — Real-Time WebSocket Lobby
 > **Stack**: Node.js, Socket.IO, WebSockets, Express, Vanilla JS  
 > **Telemetry**: Real-time room synchronizer | Sub-15ms latency  
 > **Links**: [Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [Source Code](https://github.com/vanshinatorr/chess-multiplayer)
@@ -48,7 +48,7 @@ A low-latency multiplayer chess platform with dynamic room codes and matchmaking
 - **In-Memory Cache Sync**: Achieved sub-15ms sync latency by caching lobby and match states in custom memory maps instead of persistent database writes.
 - **State Recovery**: Engineered server-side match serialization, allowing users to reconnect and resume active match timers on brief network drops.
 
-### ⚙️ `module/telemetry-cache-streamer` — System Metric Spooler
+### `module/telemetry-cache-streamer` — System Metric Spooler
 > **Stack**: C++17, CMake, std::thread, Mutex Queues  
 > **Telemetry**: Local daemon utility | Memory-to-disk spooler  
 > **Links**: [Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
@@ -59,7 +59,7 @@ A background utility in C++17 to buffer, throttle, and serialize system telemetr
 
 ---
 
-### 📬 Connection API Reference
+### Connection API Reference
 
 ```http
 GET /api/candidate/profile
@@ -92,7 +92,7 @@ curl -X POST https://github.com/vanshinatorr \
 
 ---
 
-### 📊 Runtime Metrics & Analytics
+### Runtime Metrics & Analytics
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
