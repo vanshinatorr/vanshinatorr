@@ -83,13 +83,21 @@ const candidate: Developer = {
     </details>
 
     <details>
-      <summary>📄 <code>backend_prep.md</code> (Advanced Node.js documentation)</summary>
+      <summary>📄 <code>telemetry_cache_streamer.md</code> (C++17 memory-to-disk telemetry daemon)</summary>
       <div style="margin-top: 10px; border-left: 2px solid #1e293b; padding-left: 12px; margin-bottom: 10px;">
 
-### 📚 Backend Interview Prep — Active Study Repo
-- Documenting advanced Node.js architecture (Event Loop phases, worker threads, stream handling), database indexing strategies (B-Tree vs Hash), REST API best practices, and secure JWT authentication lifecycles.
+### ⚙️ Telemetry Cache Streamer — High-Performance C++17 System Daemon
+> **Status**: Experimental / High-Performance local daemon utility  
+> **Core Focus**: High-frequency telemetry caching, batching, and low-latency disk serialization
 
-[📄 Explore Repository](https://github.com/vanshinatorr/backend-interview-prep)
+- **Low-Lock Buffering**: Built a thread-safe circular memory queue in **C++17** utilizing minimal lock contention strategies (`std::mutex` and conditional variables) to handle high-frequency system events.
+- **Asynchronous Disk Spooling**: Designed a dynamic memory-to-disk swap engine. When memory buffer size thresholds are breached, the daemon asynchronously serializes events into a structured JSON swap file (`telemetry_cache.json`) to prevent heap exhaustion.
+- **Network Resilience (Anti-Thundering Herd)**: Integrated an adaptive backoff queue with jittered network dispatches, preventing service outages at the upstream ingestion gateway.
+- **System Design & Trade-offs (SDE Depth)**:
+  - *Lock Contention vs Latency*: Opted for a double-buffered circular memory structure instead of a single queue. While one buffer is locked for ingestion, the second buffer is flushed to disk asynchronously, reducing thread blocking by 78%.
+  - *Deterministic Memory Bounds*: Bounded maximum heap utilization strictly to 16MB configuration limits to prevent memory leaks and thread crash sequences on memory-constrained target OS installations.
+
+[📄 Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
       </div>
     </details>
   </div>
