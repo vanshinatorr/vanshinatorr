@@ -8,48 +8,50 @@
 
 <br/><br/>
 
-<a href="https://www.linkedin.com/in/vansh-vijay/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="https://daily-coding-habit-tracker.vercel.app"><img src="https://img.shields.io/badge/ConsistPay-Live-8B5CF6?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<a href="https://codolio.com/profile/vanshinatorr"><img src="https://img.shields.io/badge/Codolio-Top%2030%20%40%20JECRC-6C63FF?style=for-the-badge"/></a>
-<a href="https://leetcode.com/u/vanshinatorr/"><img src="https://img.shields.io/badge/DSA-300+%20Solved-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/></a>
-<a href="mailto:vanshvijay9784@gmail.com"><img src="https://img.shields.io/badge/Hire%20Me-Open%20to%20Internships-22C55E?style=for-the-badge"/></a>
-
 </div>
 
 ---
 
-```text
-+-----------------------------------------------------------------------+
-|  SYSTEM CONFIGURATION & STATUS                                        |
-+-----------------------------------------------------------------------+
-|  Node Host  : Vansh Vijay [v1.2.0-stable]                             |
-|  Uptime     : B.Tech CSE (2023 - 2027) @ JECRC University, Jaipur     |
-|  Status     : ACTIVE_FOR_HIRING (Open to SDE Internships / Roles)     |
-|  Base ELO   : 1500+ ELO (Strategic chess thinker)                     |
-|  Core Stack : Node.js | Express.js | React.js | MongoDB               |
-+-----------------------------------------------------------------------+
-```
+# 📂 WORKSPACE EXPLORER
+
+> **Workspace**: `vansh-vijay-core [v1.2.0-stable]`  
+> *Click on files to open and inspect candidate configurations.*
+
+<details open>
+  <summary><b>📁 system_config/</b></summary>
+  <div style="padding-left: 15px; margin-top: 5px; margin-bottom: 5px;">
+    <details>
+      <summary>📄 <code>spec_sheet.ts</code> (Candidate Metadata)</summary>
+      <div style="margin-top: 10px; border-left: 2px solid #1e293b; padding-left: 12px; margin-bottom: 10px;">
 
 ```ts
-// candidate_profile.ts
+// spec_sheet.ts
 const candidate: Developer = {
   name: "Vansh Vijay",
-  specialization: "High-Performance Backends & High-Fidelity User Interfaces",
-  mentality: "Consistency beats intensity when repeated long enough.",
+  university: "JECRC University, Jaipur — B.Tech CSE (2023–2027)",
+  specialization: "High-Performance Backends & High-Fidelity UI",
+  coreStack: ["Node.js", "Express.js", "React.js", "MongoDB"],
   achievements: {
     codolio: "Top 30 Coding Profiles at JECRC (among 2000+ students)",
     dsa: "300+ Solved problems (LeetCode & GFG in C++)",
-    realWorld: "Shipped 'ConsistPay' - a live web app with 60+ active users"
+    chess: "1500+ peak ELO (Strategic chess thinker)"
   }
 };
 ```
+      </div>
+    </details>
+  </div>
+</details>
 
----
+<details open>
+  <summary><b>📁 featured_modules/</b></summary>
+  <div style="padding-left: 15px; margin-top: 5px; margin-bottom: 5px;">
+    <details>
+      <summary>📄 <code>consistpay.md</code> (Streak accountability engine)</summary>
+      <div style="margin-top: 10px; border-left: 2px solid #1e293b; padding-left: 12px; margin-bottom: 10px;">
 
-## 🚀 Featured Engineering Modules
-
-### 📁 `module/consistpay` — Monetized Coding Accountability Platform
-> **Status**: Production-Ready / Fully Deployed / Real money transactions
+### ⚡ ConsistPay — Coding Accountability Platform
+> **Status**: Production-Ready / Fully Deployed / Real money transactions  
 > **Users**: 60+ active students tracking coding consistency
 
 - **Core Backend Architecture**: Engineered a custom **Streak Tracking Engine** in Node.js/Express, incorporating payment validation and duplicate verification algorithms to prevent falsified reports.
@@ -58,13 +60,16 @@ const candidate: Developer = {
 - **System Design & Trade-offs (SDE Depth)**:
   - *Data Race Prevention*: Resolved concurrency issues with duplicate daily streak submissions by implementing database-level schema uniqueness constraints and atomic MongoDB operators (`$set`, `$setOnInsert`).
   - *Reliable Webhooks*: Designed a fault-tolerant webhook receiver queue with automated retries. This ensures user streak status is successfully captured even during temporary database lockups or external API latency.
-- **Stack**: Node.js, Express, MongoDB, Mongoose, Razorpay SDK, Google Gemini AI.
 
 [⚡ Visit Live Platform](https://daily-coding-habit-tracker.vercel.app) • [📄 Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
+      </div>
+    </details>
 
----
+    <details>
+      <summary>📄 <code>chess_multiplayer.md</code> (Real-time Socket.IO platform)</summary>
+      <div style="margin-top: 10px; border-left: 2px solid #1e293b; padding-left: 12px; margin-bottom: 10px;">
 
-### 📁 `module/chess-multiplayer` — Real-Time Game State Synchronizer
+### ♟️ Chess Multiplayer — Real-time WebSocket Platform
 > **Status**: Active / Low-Latency WebSocket Room Sync
 
 - **WebSocket Sync Engine**: Designed a WebSocket server using **Socket.IO** to manage real-time chess move synchronization and room matchmaking.
@@ -72,22 +77,32 @@ const candidate: Developer = {
 - **System Design & Trade-offs (SDE Depth)**:
   - *Low Latency Matchmaking*: Utilized highly optimized, in-memory JavaScript maps to store active lobby and room metadata, achieving sub-15ms sync times and completely eliminating heavy persistent database read/write bottlenecks.
   - *Resilient Game Timers*: Embedded heartbeats in connection protocols to detect silent sockets, automatically adjusting client clocks and preserving game timers on brief reconnects.
-- **Stack**: WebSockets, Socket.IO, Node.js, Express, HTML5 canvas/JS.
 
 [♟️ Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [📄 Source Code](https://github.com/vanshinatorr/chess-multiplayer)
+      </div>
+    </details>
 
----
+    <details>
+      <summary>📄 <code>backend_prep.md</code> (Advanced Node.js documentation)</summary>
+      <div style="margin-top: 10px; border-left: 2px solid #1e293b; padding-left: 12px; margin-bottom: 10px;">
 
-### 📁 `module/backend-prep` — System Design & Interview Architecture
-> **Status**: Active Study & Documentation Repository
-
+### 📚 Backend Interview Prep — Active Study Repo
 - Documenting advanced Node.js architecture (Event Loop phases, worker threads, stream handling), database indexing strategies (B-Tree vs Hash), REST API best practices, and secure JWT authentication lifecycles.
 
 [📄 Explore Repository](https://github.com/vanshinatorr/backend-interview-prep)
+      </div>
+    </details>
+  </div>
+</details>
 
----
+<details open>
+  <summary><b>📁 candidate_endpoints/</b></summary>
+  <div style="padding-left: 15px; margin-top: 5px; margin-bottom: 5px;">
+    <details>
+      <summary>📄 <code>hire_api.http</code> (Mock REST endpoint definitions)</summary>
+      <div style="margin-top: 10px; border-left: 2px solid #1e293b; padding-left: 12px; margin-bottom: 10px;">
 
-## 📬 SDE Candidate API Reference
+### 📬 SDE Candidate API Reference
 
 ```http
 GET /api/candidate/profile
@@ -118,10 +133,17 @@ curl -X POST https://github.com/vanshinatorr \
   -H "Content-Type: application/json" \
   -d '{"company_name": "Acme Corp", "role_type": "SDE Intern", "stipend_range": "Competitive"}'
 ```
+      </div>
+    </details>
+  </div>
+</details>
 
----
-
-## 📊 Runtime Metrics & Activity
+<details open>
+  <summary><b>📁 telemetry_analytics/</b></summary>
+  <div style="padding-left: 15px; margin-top: 5px; margin-bottom: 5px;">
+    <details>
+      <summary>📄 <code>activity_charts.md</code> (GitHub status logs)</summary>
+      <div style="margin-top: 10px; border-left: 2px solid #1e293b; padding-left: 12px; margin-bottom: 10px;">
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -147,6 +169,10 @@ curl -X POST https://github.com/vanshinatorr \
     </td>
   </tr>
 </table>
+      </div>
+    </details>
+  </div>
+</details>
 
 ---
 
