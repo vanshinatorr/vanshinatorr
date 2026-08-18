@@ -73,6 +73,10 @@ A background utility in C++17 to buffer, throttle, and serialize system telemetr
 
 ### Connection API Reference
 
+> ⚡ **Quick Connection:** If you are a recruiter, you can [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/).
+>
+> *For developers & systems builders, you can query my candidate metadata endpoints directly:*
+
 ```http
 GET https://vanshvijay.me/api/candidate/profile
 ```
