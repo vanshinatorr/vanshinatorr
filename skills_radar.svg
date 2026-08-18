@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" width="100%" height="100%" style="background: #0d0e12; border-radius: 6px; border: 1px solid #1e293b;">
+  <!-- CSS Styles -->
+  <style>
+    .grid-line {
+      stroke: #1e293b;
+      stroke-width: 1;
+      stroke-dasharray: 2 2;
+    }
+    .axis-line {
+      stroke: #1e293b;
+      stroke-width: 1;
+    }
+    .radar-poly {
+      fill: rgba(102, 252, 241, 0.15);
+      stroke: #66fcf1;
+      stroke-width: 1.5;
+      transition: fill 0.3s, stroke 0.3s;
+    }
+    .radar-poly:hover {
+      fill: rgba(245, 158, 11, 0.2);
+      stroke: #f59e0b;
+    }
+    .radar-label {
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 8px;
+      fill: #94a3b8;
+      font-weight: bold;
+    }
+    .chart-title {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      fill: #475569;
+      letter-spacing: 0.05em;
+    }
+  </style>
+
+  <!-- Title -->
+  <text x="10" y="18" class="chart-title">03 / CAPABILITY MATRIX [HOVER TO TOGGLE]</text>
+
+  <!-- Nested Grid Pentagons -->
+  <!-- 100% Limit -->
+  <polygon points="160,37 224.6,84 199.9,160 120.1,160 95.4,84" fill="none" class="grid-line" />
+  <!-- 66% Limit -->
+  <polygon points="160,60 202.8,91.1 186.4,141.4 133.6,141.4 117.2,91.1" fill="none" class="grid-line" />
+  <!-- 33% Limit -->
+  <polygon points="160,83 180.9,98.2 172.9,122.8 147.1,122.8 139.1,98.2" fill="none" class="grid-line" />
+
+  <!-- Axis Lines (from center (160, 105)) -->
+  <line x1="160" y1="105" x2="160" y2="37" class="axis-line" />
+  <line x1="160" y1="105" x2="224.6" y2="84" class="axis-line" />
+  <line x1="160" y1="105" x2="199.9" y2="160" class="axis-line" />
+  <line x1="160" y1="105" x2="120.1" y2="160" class="axis-line" />
+  <line x1="160" y1="105" x2="95.4" y2="84" class="axis-line" />
+
+  <!-- Actual Candidate Skill Polygon -->
+  <polygon points="160,40.4 218.2,86.1 193.9,151.8 128.1,149 103.1,86.5" class="radar-poly" />
+
+  <!-- Vertices Data Nodes (Mini dots on the boundary) -->
+  <circle cx="160" cy="40.4" r="2.5" fill="#66fcf1" />
+  <circle cx="218.2" cy="86.1" r="2.5" fill="#66fcf1" />
+  <circle cx="193.9" cy="151.8" r="2.5" fill="#66fcf1" />
+  <circle cx="128.1" cy="149" r="2.5" fill="#66fcf1" />
+  <circle cx="103.1" cy="86.5" r="2.5" fill="#66fcf1" />
+
+  <!-- Labels -->
+  <text x="160" y="29" class="radar-label" text-anchor="middle">BACKEND_SYSTEMS</text>
+  <text x="232" y="86" class="radar-label" text-anchor="start">DSA (C++)</text>
+  <text x="206" y="170" class="radar-label" text-anchor="start">SYSTEMS (C++17)</text>
+  <text x="114" y="170" class="radar-label" text-anchor="end">FRONTEND</text>
+  <text x="88" y="86" class="radar-label" text-anchor="end">DATABASES / HOOKS</text>
+</svg>

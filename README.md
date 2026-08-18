@@ -155,25 +155,16 @@ curl -X POST https://github.com/vanshinatorr \
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="55%" align="center" valign="top" style="border: none; background: transparent;">
+    <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding-right: 5px;">
       <img src="https://streak-stats.demolab.com?user=vanshinatorr&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="100%"/>
     </td>
-    <td width="45%" align="center" valign="top" style="border: none; background: transparent;">
-      <img src="https://github-readme-stats.vercel.app/api/top-langs?username=vanshinatorr&layout=compact&theme=tokyonight&hide_border=true&hide=typescript&langs_count=6&custom_title=Languages" width="100%"/>
+    <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding-left: 5px;">
+      <img src="./skills_radar.svg" width="100%"/>
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center" style="border: none; padding-top: 15px; background: transparent;">
       <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&bg_color=0d1117&color=a78bfa&line=7c3aed&point=c4b5fd&area=true&hide_border=true&custom_title=Contribution%20Activity" width="100%"/>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center" style="border: none; padding-top: 15px; background: transparent;">
-      <picture>
-        <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake-dark.svg" />
-        <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" />
-        <img alt="github-snake" src="https://raw.githubusercontent.com/vanshinatorr/vanshinatorr/output/github-contribution-grid-snake.svg" width="100%" />
-      </picture>
     </td>
   </tr>
 </table>
