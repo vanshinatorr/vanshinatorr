@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./banner.svg?v=2" width="100%" alt="Vansh Vijay Banner" />
+<img src="./architecture_schematic.svg" width="100%" alt="Vansh Vijay Banner" />
 
 <br/><br/>
 
@@ -55,6 +55,9 @@ const candidate: Developer = {
 - **Core Backend Architecture**: Engineered a custom **Streak Tracking Engine** in Node.js/Express, incorporating payment validation and duplicate verification algorithms to prevent falsified reports.
 - **Payment Gateway Integration**: Embedded secure **Razorpay Webhooks** to manage real-time subscriptions, transaction statuses, and user database updates.
 - **Gemini AI Core**: Leveraged **Google Gemini API** to analyze daily user coding activity and generate personalized analytics/insights.
+- **System Design & Trade-offs (SDE Depth)**:
+  - *Data Race Prevention*: Resolved concurrency issues with duplicate daily streak submissions by implementing database-level schema uniqueness constraints and atomic MongoDB operators (`$set`, `$setOnInsert`).
+  - *Reliable Webhooks*: Designed a fault-tolerant webhook receiver queue with automated retries. This ensures user streak status is successfully captured even during temporary database lockups or external API latency.
 - **Stack**: Node.js, Express, MongoDB, Mongoose, Razorpay SDK, Google Gemini AI.
 
 [⚡ Visit Live Platform](https://daily-coding-habit-tracker.vercel.app) • [📄 Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
@@ -66,6 +69,9 @@ const candidate: Developer = {
 
 - **WebSocket Sync Engine**: Designed a WebSocket server using **Socket.IO** to manage real-time chess move synchronization and room matchmaking.
 - **State Recovery**: Configured full state serialization on the backend, ensuring client-state resilience and active game timers remain synced across disconnects.
+- **System Design & Trade-offs (SDE Depth)**:
+  - *Low Latency Matchmaking*: Utilized highly optimized, in-memory JavaScript maps to store active lobby and room metadata, achieving sub-15ms sync times and completely eliminating heavy persistent database read/write bottlenecks.
+  - *Resilient Game Timers*: Embedded heartbeats in connection protocols to detect silent sockets, automatically adjusting client clocks and preserving game timers on brief reconnects.
 - **Stack**: WebSockets, Socket.IO, Node.js, Express, HTML5 canvas/JS.
 
 [♟️ Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [📄 Source Code](https://github.com/vanshinatorr/chess-multiplayer)
@@ -75,7 +81,7 @@ const candidate: Developer = {
 ### 📁 `module/backend-prep` — System Design & Interview Architecture
 > **Status**: Active Study & Documentation Repository
 
-- Documenting advanced Node.js architecture (Event Loop, cluster modules, stream handling), database indexing strategies, REST API best practices, and secure JWT authentication lifecycles.
+- Documenting advanced Node.js architecture (Event Loop phases, worker threads, stream handling), database indexing strategies (B-Tree vs Hash), REST API best practices, and secure JWT authentication lifecycles.
 
 [📄 Explore Repository](https://github.com/vanshinatorr/backend-interview-prep)
 
