@@ -74,7 +74,7 @@ A background utility in C++17 to buffer, throttle, and serialize system telemetr
 ### Connection API Reference
 
 ```http
-GET /api/candidate/profile
+GET https://vanshvijay.me/api/candidate/profile
 ```
 #### Response Payload (`200 OK`)
 ```json
@@ -86,7 +86,7 @@ GET /api/candidate/profile
 ```
 
 ```http
-POST /api/candidate/hire
+POST https://vanshvijay.me/api/candidate/hire
 ```
 #### Request Parameters
 | Parameter | Type | Required | Description |
@@ -97,7 +97,7 @@ POST /api/candidate/hire
 
 #### Example Request
 ```bash
-curl -X POST https://github.com/vanshinatorr \
+curl -X POST https://vanshvijay.me/api/candidate/hire \
   -H "Content-Type: application/json" \
   -d '{"company_name": "Acme Corp", "role_type": "SDE Intern", "stipend_range": "Competitive"}'
 ```
