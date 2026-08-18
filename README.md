@@ -12,90 +12,54 @@
 
 ---
 
-# 📂 WORKSPACE EXPLORER
+# 🛠️ SYSTEM SPECIFICATION: VANSH VIJAY
 
-> Click on the folders and files below to expand their contents.
+---
 
-<details open>
-<summary><b>📁 system_config</b></summary>
+### ⚙️ Core Configuration
 
-<details style="margin-left: 20px;">
-<summary>📄 <code>spec_sheet.ts</code> (Candidate Metadata)</summary>
+| Property | Configuration Value |
+| :--- | :--- |
+| **Candidate** | Vansh Vijay (Full-Stack & Backend Systems) |
+| **University** | B.Tech CSE (2023 - 2027) @ JECRC University, Jaipur |
+| **Core Stack** | Node.js | Express.js | React.js | MongoDB | C++ |
+| **Strategic Thinking** | 1500+ Peak ELO (Chess.com) |
 
-```ts
-// spec_sheet.ts
-const candidate: Developer = {
-  name: "Vansh Vijay",
-  university: "JECRC University, Jaipur — B.Tech CSE (2023–2027)",
-  focus: "High-Performance Backends & Clean UI",
-  coreStack: ["Node.js", "Express.js", "React.js", "MongoDB"],
-  achievements: {
-    codolio: "Top 30 Coding Profiles at JECRC (among 2000+ students)",
-    dsa: "300+ Solved problems (LeetCode & GFG in C++)",
-    chess: "1500+ peak ELO (Strategic chess thinker)"
-  }
-};
-```
+---
 
-</details>
+### 🚀 Production Modules
 
-</details>
+#### 📁 `module/consistpay` — Coding Streak Platform (Live & Monetized)
+> **Stack**: Node.js, Express, MongoDB, Razorpay API, Google Gemini AI  
+> **Telemetry**: 60+ active users | Live transaction flow  
+> **Links**: [Live Platform](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
 
-<details open>
-<summary><b>📁 featured_modules</b></summary>
+A production-deployed application designed to solve developer inconsistency using financial accountability stakes.
+- **Race Condition Prevention**: Resolved data-race bugs on streak check-ins by implementing unique index schemas and atomic MongoDB operators (`$set`, `$setOnInsert`).
+- **Webhook Reliability**: Created a retry-tolerant webhook receiver for Razorpay payments, guaranteeing data persistence even during transient server drops.
+- **AI-Driven Activity Logs**: Embedded Google Gemini API to parse developer logs and generate customized feedback.
 
-<details style="margin-left: 20px;">
-<summary>📄 <code>consistpay.md</code> (MERN Stack + Gemini AI)</summary>
+#### 📁 `module/chess-multiplayer` — Real-Time WebSocket Lobby
+> **Stack**: Node.js, Socket.IO, WebSockets, Express, Vanilla JS  
+> **Telemetry**: Real-time room synchronizer | Sub-15ms latency  
+> **Links**: [Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [Source Code](https://github.com/vanshinatorr/chess-multiplayer)
 
-### ⚡ ConsistPay — Coding Accountability Platform
-> **Links:** [Live Site](https://daily-coding-habit-tracker.vercel.app) | [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
+A low-latency multiplayer chess platform with dynamic room codes and matchmaking.
+- **In-Memory Cache Sync**: Achieved sub-15ms sync latency by caching lobby and match states in custom memory maps instead of persistent database writes.
+- **State Recovery**: Engineered server-side match serialization, allowing users to reconnect and resume active match timers on brief network drops.
 
-A live app used by **60+ active users** to maintain daily coding habits. 
+#### 📁 `module/telemetry-cache-streamer` — System Metric Spooler
+> **Stack**: C++17, CMake, std::thread, Mutex Queues  
+> **Telemetry**: Local daemon utility | Memory-to-disk spooler  
+> **Links**: [Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
 
-**What I solved:**
-- **Double-Streak Bug:** Fixed a race condition where multiple rapid requests would double-claim streaks or payments, by implementing MongoDB uniqueness locks and atomic `$set` operations.
-- **Webhook Resilience:** Integrated Razorpay webhooks with retries. If our server goes down momentarily during a payment, the transaction isn't lost—it retries and updates the user's streak safely.
-- **AI Activity Review:** Hooked up the Gemini API to analyze user logs and generate dynamic feedback on their progress.
+A background utility in C++17 to buffer, throttle, and serialize system telemetry metrics.
+- **Low-Lock Queue**: Implemented a thread-safe circular buffer using mutex synchronization, cutting thread blocking by 78% via asynchronous double-buffer writing.
+- **Memory Boundary Limits**: Bounded total heap usage strictly to 16MB configuration limits to prevent memory leaks in resource-constrained environments.
 
-</details>
+---
 
-<details style="margin-left: 20px;">
-<summary>📄 <code>chess_multiplayer.md</code> (Node.js + Socket.IO)</summary>
-
-### ♟️ Chess Multiplayer — Real-time WebSockets
-> **Links:** [Play Live](https://chess-multiplayer-y54n.onrender.com) | [Source Code](https://github.com/vanshinatorr/chess-multiplayer)
-
-A real-time chess platform with room creation and matchmaking. Built in a day.
-
-**What I solved:**
-- **Under-15ms Latency:** Instead of querying MongoDB for every move, I stored active room sessions in-memory using JavaScript maps. This keeps game play fast and lag-free.
-- **Connection Recovery:** Stored game states on the server so that if a player's internet drops, they can reconnect to the same match and resume their timer without losing progress.
-
-</details>
-
-<details style="margin-left: 20px;">
-<summary>📄 <code>telemetry_cache_streamer.md</code> (C++17 System Daemon)</summary>
-
-### ⚙️ Telemetry Cache Streamer — High-Performance C++17 Utility
-> **Links:** [Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
-
-A local background utility built in C++17 to buffer, throttle, and serialize system telemetry metrics before they are pushed upstream.
-
-**What I solved:**
-- **78% Less Thread Blocking:** Avoided standard queue lock bottlenecks by implementing a double-buffered circular memory structure. While one buffer ingests metrics, the other is flushed to disk asynchronously.
-- **Deterministic Memory:** Capped the daemon's memory footprint strictly to 16MB to ensure it never causes memory leaks or crashes on small, resource-constrained servers.
-
-</details>
-
-</details>
-
-<details open>
-<summary><b>📁 candidate_endpoints</b></summary>
-
-<details style="margin-left: 20px;">
-<summary>📄 <code>hire_api.http</code> (Mock REST endpoint definitions)</summary>
-
-### 📬 SDE Candidate API Reference
+### 📬 Connection API Reference
 
 ```http
 GET /api/candidate/profile
@@ -105,7 +69,6 @@ GET /api/candidate/profile
 {
   "status": "Available",
   "target_roles": ["SDE Intern", "Full Stack Developer", "Backend Engineer"],
-  "current_locations": ["Jaipur, India", "Remote"],
   "contact_email": "vanshvijay9784@gmail.com"
 }
 ```
@@ -127,15 +90,9 @@ curl -X POST https://github.com/vanshinatorr \
   -d '{"company_name": "Acme Corp", "role_type": "SDE Intern", "stipend_range": "Competitive"}'
 ```
 
-</details>
+---
 
-</details>
-
-<details open>
-<summary><b>📁 telemetry_analytics</b></summary>
-
-<details style="margin-left: 20px;">
-<summary>📄 <code>activity_charts.md</code> (GitHub status logs)</summary>
+### 📊 Runtime Metrics & Analytics
 
 <table width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
@@ -152,10 +109,6 @@ curl -X POST https://github.com/vanshinatorr \
     </td>
   </tr>
 </table>
-
-</details>
-
-</details>
 
 ---
 
