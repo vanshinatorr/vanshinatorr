@@ -85,8 +85,12 @@ GET https://vanshvijay.me/api/candidate/profile
 curl -s https://vanshvijay.me/api/candidate/profile | json_pp
 ```
 
-#### Response Payload (`200 OK`)
-```json
+#### Response Payload
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+
 {
   "status": "Available",
   "target_roles": ["SDE Intern", "Full Stack Developer", "Backend Engineer"],
@@ -109,6 +113,21 @@ POST https://vanshvijay.me/api/candidate/hire
 curl -s -X POST https://vanshvijay.me/api/candidate/hire \
   -H "Content-Type: application/json" \
   -d '{"company_name": "Acme Corp", "role_type": "SDE Intern", "stipend_range": "Competitive"}' | json_pp
+```
+
+#### Response Payload
+```http
+HTTP/1.1 200 OK
+Content-Type: application/json
+Access-Control-Allow-Origin: *
+
+{
+  "status": "Success",
+  "message": "Hire request received from Acme Corp for the SDE Intern role! Connection initialized.",
+  "candidate_notification": "Sent",
+  "contact_email": "vanshvijay9784@gmail.com",
+  "timestamp": "2026-08-19T02:00:00.000Z"
+}
 ```
 
 ---
