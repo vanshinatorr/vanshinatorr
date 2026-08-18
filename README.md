@@ -80,6 +80,11 @@ A background utility in C++17 to buffer, throttle, and serialize system telemetr
 ```http
 GET https://vanshvijay.me/api/candidate/profile
 ```
+#### Example Request
+```bash
+curl -s https://vanshvijay.me/api/candidate/profile | json_pp
+```
+
 #### Response Payload (`200 OK`)
 ```json
 {
@@ -101,9 +106,9 @@ POST https://vanshvijay.me/api/candidate/hire
 
 #### Example Request
 ```bash
-curl -X POST https://vanshvijay.me/api/candidate/hire \
+curl -s -X POST https://vanshvijay.me/api/candidate/hire \
   -H "Content-Type: application/json" \
-  -d '{"company_name": "Acme Corp", "role_type": "SDE Intern", "stipend_range": "Competitive"}'
+  -d '{"company_name": "Acme Corp", "role_type": "SDE Intern", "stipend_range": "Competitive"}' | json_pp
 ```
 
 ---
