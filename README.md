@@ -18,44 +18,58 @@
 
 ### Core Configuration
 
-| Property | Configuration Value |
-| :--- | :--- |
-| **Candidate** | Vansh Vijay (Full-Stack & Backend Systems) |
-| **University** | B.Tech CSE (2023 - 2027) @ JECRC University, Jaipur |
-| **Core Stack** | Node.js | Express.js | React.js | MongoDB | C++ |
-| **Strategic Thinking** | 1500+ Peak ELO (Chess.com) |
+```text
++-----------------------------------------------------------------------+
+|  SYSTEM DIAGNOSTIC REPORT                                             |
++-----------------------------------------------------------------------+
+|  Candidate  : Vansh Vijay (Full-Stack & Backend Systems)              |
+|  University : B.Tech CSE (2023 - 2027) @ JECRC University, Jaipur     |
+|  Core Stack : Node.js / Express.js / React.js / MongoDB / C++         |
+|  Strategy   : 1500+ Peak ELO (Chess.com strategic matchmaking)        |
+|  Status     : ACTIVE_FOR_HIRING (Open to SDE Internships / Roles)     |
++-----------------------------------------------------------------------+
+```
 
 ---
 
 ### Production Modules
 
 ### `module/consistpay` — Coding Streak Platform (Live & Monetized)
-> **Stack**: Node.js, Express, MongoDB, Razorpay API, Google Gemini AI  
-> **Telemetry**: 60+ active users | Live transaction flow  
-> **Links**: [Live Platform](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
+> **Links:** [Live Platform](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
 
 A production-deployed application designed to solve developer inconsistency using financial accountability stakes.
-- **Race Condition Prevention**: Resolved data-race bugs on streak check-ins by implementing unique index schemas and atomic MongoDB operators (`$set`, `$setOnInsert`).
-- **Webhook Reliability**: Created a retry-tolerant webhook receiver for Razorpay payments, guaranteeing data persistence even during transient server drops.
-- **AI-Driven Activity Logs**: Embedded Google Gemini API to parse developer logs and generate customized feedback.
+
+*   **Race Condition Prevention:** Resolved data-race bugs on streak check-ins by implementing unique index schemas and atomic MongoDB operators (`$set`, `$setOnInsert`).
+*   **Webhook Reliability:** Created a retry-tolerant webhook receiver for Razorpay payments, guaranteeing data persistence even during transient server drops.
+*   **AI-Driven Activity Logs:** Embedded Google Gemini API to parse developer logs and generate customized feedback.
+*   **Key Performance Indicators (KPIs):**
+    *   **DB Latency:** `< 5ms` query latency via compound indexing on user log collections.
+    *   **Throughput:** Concurrency-tested to handle `100+ req/sec` using memory lock queues.
+    *   **Integrations:** Razorpay Gateway API & Google Gemini AI API.
 
 ### `module/chess-multiplayer` — Real-Time WebSocket Lobby
-> **Stack**: Node.js, Socket.IO, WebSockets, Express, Vanilla JS  
-> **Telemetry**: Real-time room synchronizer | Sub-15ms latency  
-> **Links**: [Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [Source Code](https://github.com/vanshinatorr/chess-multiplayer)
+> **Links:** [Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [Source Code](https://github.com/vanshinatorr/chess-multiplayer)
 
 A low-latency multiplayer chess platform with dynamic room codes and matchmaking.
-- **In-Memory Cache Sync**: Achieved sub-15ms sync latency by caching lobby and match states in custom memory maps instead of persistent database writes.
-- **State Recovery**: Engineered server-side match serialization, allowing users to reconnect and resume active match timers on brief network drops.
+
+*   **In-Memory Cache Sync:** Achieved sub-15ms sync latency by caching lobby and match states in custom memory maps instead of persistent database writes.
+*   **State Recovery:** Engineered server-side match serialization, allowing users to reconnect and resume active match timers on brief network drops.
+*   **Key Performance Indicators (KPIs):**
+    *   **Lobby latency:** Sub-`15ms` real-time synchronization over Socket.IO connections.
+    *   **Queue matchmaking:** `< 50ms` execution using dynamic array pools.
+    *   **Packet payload:** Compact JSON structures (`< 200 bytes` per move packet).
 
 ### `module/telemetry-cache-streamer` — System Metric Spooler
-> **Stack**: C++17, CMake, std::thread, Mutex Queues  
-> **Telemetry**: Local daemon utility | Memory-to-disk spooler  
-> **Links**: [Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
+> **Links:** [Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
 
 A background utility in C++17 to buffer, throttle, and serialize system telemetry metrics.
-- **Low-Lock Queue**: Implemented a thread-safe circular buffer using mutex synchronization, cutting thread blocking by 78% via asynchronous double-buffer writing.
-- **Memory Boundary Limits**: Bounded total heap usage strictly to 16MB configuration limits to prevent memory leaks in resource-constrained environments.
+
+*   **Low-Lock Queue:** Implemented a thread-safe circular buffer using mutex synchronization, cutting thread blocking by 78% via asynchronous double-buffer writing.
+*   **Memory Boundary Limits:** Bounded total heap usage strictly to 16MB configuration limits to prevent memory leaks in resource-constrained environments.
+*   **Key Performance Indicators (KPIs):**
+    *   **Serialization:** Fast asynchronous writing to `telemetry_cache.json` swap files.
+    *   **Memory cap:** Bounded to `16MB` limits to prevent heap leaks.
+    *   **Compilers:** CMake configuration for GCC/Clang compilers (C++17 standard).
 
 ---
 
@@ -114,9 +128,10 @@ curl -X POST https://github.com/vanshinatorr \
 
 <div align="center">
   <br/>
-  <a href="https://www.linkedin.com/in/vansh-vijay/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin"/></a>
-  <a href="https://x.com/vanshvijay9"><img src="https://img.shields.io/badge/Twitter-Follow-000000?style=for-the-badge&logo=x"/></a>
-  <a href="mailto:vanshvijay9784@gmail.com"><img src="https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  
+  `[ `[LinkedIn](https://www.linkedin.com/in/vansh-vijay/)` ]`  •  `[ `[Twitter](https://x.com/vanshvijay9)` ]`  •  `[ `[Email](mailto:vanshvijay9784@gmail.com)` ]`
+
   <br/><br/>
+  
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
 </div>

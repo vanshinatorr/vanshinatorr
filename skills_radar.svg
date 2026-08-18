@@ -11,13 +11,13 @@
       stroke-width: 1;
     }
     .radar-poly {
-      fill: rgba(102, 252, 241, 0.15);
+      fill: rgba(102, 252, 241, 0.12);
       stroke: #66fcf1;
       stroke-width: 1.5;
       transition: fill 0.3s, stroke 0.3s;
     }
     .radar-poly:hover {
-      fill: rgba(245, 158, 11, 0.2);
+      fill: rgba(245, 158, 11, 0.18);
       stroke: #f59e0b;
     }
     .radar-label {
@@ -25,6 +25,11 @@
       font-size: 8px;
       fill: #94a3b8;
       font-weight: bold;
+    }
+    .grid-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 7px;
+      fill: #475569;
     }
     .chart-title {
       font-family: 'JetBrains Mono', monospace;
@@ -45,6 +50,11 @@
   <!-- 33% Limit -->
   <polygon points="160,83 180.9,98.2 172.9,122.8 147.1,122.8 139.1,98.2" fill="none" class="grid-line" />
 
+  <!-- Grid Scale Labels -->
+  <text x="163" y="43" class="grid-label">1.00</text>
+  <text x="163" y="66" class="grid-label">0.66</text>
+  <text x="163" y="89" class="grid-label">0.33</text>
+
   <!-- Axis Lines (from center (160, 105)) -->
   <line x1="160" y1="105" x2="160" y2="37" class="axis-line" />
   <line x1="160" y1="105" x2="224.6" y2="84" class="axis-line" />
@@ -55,12 +65,12 @@
   <!-- Actual Candidate Skill Polygon -->
   <polygon points="160,40.4 218.2,86.1 193.9,151.8 128.1,149 103.1,86.5" class="radar-poly" />
 
-  <!-- Vertices Data Nodes (Mini dots on the boundary) -->
-  <circle cx="160" cy="40.4" r="2.5" fill="#66fcf1" />
-  <circle cx="218.2" cy="86.1" r="2.5" fill="#66fcf1" />
-  <circle cx="193.9" cy="151.8" r="2.5" fill="#66fcf1" />
-  <circle cx="128.1" cy="149" r="2.5" fill="#66fcf1" />
-  <circle cx="103.1" cy="86.5" r="2.5" fill="#66fcf1" />
+  <!-- Vertices Data Nodes -->
+  <circle cx="160" cy="40.4" r="2" fill="#66fcf1" />
+  <circle cx="218.2" cy="86.1" r="2" fill="#66fcf1" />
+  <circle cx="193.9" cy="151.8" r="2" fill="#66fcf1" />
+  <circle cx="128.1" cy="149" r="2" fill="#66fcf1" />
+  <circle cx="103.1" cy="86.5" r="2" fill="#66fcf1" />
 
   <!-- Labels -->
   <text x="160" y="29" class="radar-label" text-anchor="middle">BACKEND_SYSTEMS</text>
