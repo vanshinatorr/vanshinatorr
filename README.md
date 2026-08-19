@@ -100,7 +100,7 @@
 
 ### `❯ npx vansh-vijay`
 
-<sub>Run in local terminal to boot SDE console</sub>
+<sub>Run in terminal to boot SDE console</sub>
 
 <br/><br/>
 
