@@ -91,20 +91,14 @@
 
 ### Contact & Console Interface
 
-<table width="100%">
-<tr>
-<td>
+<p align="center">
+  <img src="./terminal_console.svg" width="100%" alt="Connection Console" />
+</p>
 
-**Connection Routing:**
-*   **Non-Technical:** Connect via [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or [**Email me directly**](mailto:vanshvijay9784@gmail.com).
-*   **Technical:** Run this command in your terminal to launch the interactive SDE console:
-    ```bash
-    npx vansh-vijay
-    ```
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <a href="https://www.linkedin.com/in/vansh-vijay/" target="_blank"><b>LinkedIn Profile</b></a> • 
+  <a href="mailto:vanshvijay9784@gmail.com"><b>Direct Email</b></a>
+</p>
 
 ---
 
