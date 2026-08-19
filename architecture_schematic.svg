@@ -130,5 +130,5 @@
   <!-- Bottom Details Bar -->
   <line x1="0" y1="196" x2="800" y2="196" stroke="#1e293b" stroke-width="1" />
   <text x="20" y="209" class="label-meta">BUILDING REAL PRODUCTS, NOT JUST PROJECTS.</text>
-  <text x="780" y="209" class="label-meta" text-anchor="end">LOC: JAIPUR, IN // COGNITIVE_STATE: ACTIVE</text>
+  <text x="780" y="209" class="label-meta" text-anchor="end">LOC: JAIPUR, IN | COGNITIVE_STATE: ACTIVE</text>
 </svg>

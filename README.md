@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="./architecture_schematic.svg?v=2" width="100%" alt="Vansh Vijay Banner" />
+<img src="./architecture_schematic.svg?v=3" width="100%" alt="Vansh Vijay Banner" />
 
 <br/>
 
