@@ -113,7 +113,7 @@
 </p>
 
 <p align="center">
-  <img src="./streak_stats.svg" width="100%" alt="GitHub Streak Stats" />
+  <img src="./streak_stats.svg?v=2" width="100%" alt="GitHub Streak Stats" />
 </p>
 
 <p align="center">
