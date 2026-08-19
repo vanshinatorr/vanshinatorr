@@ -11,14 +11,14 @@
       stroke-width: 1;
     }
     .radar-poly {
-      fill: rgba(102, 252, 241, 0.12);
-      stroke: #66fcf1;
+      fill: rgba(56, 189, 248, 0.12);
+      stroke: #38bdf8;
       stroke-width: 1.5;
       transition: fill 0.3s, stroke 0.3s;
     }
     .radar-poly:hover {
-      fill: rgba(245, 158, 11, 0.18);
-      stroke: #f59e0b;
+      fill: rgba(56, 189, 248, 0.18);
+      stroke: #38bdf8;
     }
     .radar-label {
       font-family: 'JetBrains Mono', 'Fira Code', monospace;
@@ -40,7 +40,7 @@
   </style>
 
   <!-- Title -->
-  <text x="10" y="18" class="chart-title">03 / CAPABILITY MATRIX [HOVER TO TOGGLE]</text>
+  <text x="10" y="18" class="chart-title">03 / CAPABILITY MATRIX</text>
 
   <!-- Nested Grid Pentagons -->
   <!-- 100% Limit -->
