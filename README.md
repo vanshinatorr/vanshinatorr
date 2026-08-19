@@ -92,17 +92,17 @@
 <h3 align="center">Contact Me</h3>
 
 <div align="center">
+<table width="100%">
+<tr>
+<td align="left">
 
-<sub>COMMUNICATION INTERFACES</sub>
+**Connection Routing:**
+*   **Recruiters:** Connect via &nbsp; <a href="https://www.linkedin.com/in/vansh-vijay/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-1e293b?style=for-the-badge&amp;logo=linkedin&amp;logoColor=38bdf8" alt="LinkedIn" /></a> &nbsp;&nbsp; <a href="mailto:vanshvijay9784@gmail.com"><img src="https://img.shields.io/badge/Email-1e293b?style=for-the-badge&amp;logo=gmail&amp;logoColor=38bdf8" alt="Email" /></a>
+*   **Developers:** Run this command in your terminal to boot my SDE console: &nbsp; `❯ npx vansh-vijay`
 
-### `❯ npx vansh-vijay`
-
-<sub>Run in local terminal to boot SDE console</sub>
-
-<br/><br/>
-
-<a href="https://www.linkedin.com/in/vansh-vijay/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-1e293b?style=for-the-badge&amp;logo=linkedin&amp;logoColor=38bdf8" alt="LinkedIn" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:vanshvijay9784@gmail.com"><img src="https://img.shields.io/badge/Email-1e293b?style=for-the-badge&amp;logo=gmail&amp;logoColor=38bdf8" alt="Email" /></a>
-
+</td>
+</tr>
+</table>
 </div>
 
 ---
