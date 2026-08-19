@@ -1,12 +1,12 @@
 <div align="center">
 
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1000&duration=4000&color=38bdf8&center=true&vCenter=true&width=800&height=40&lines=Building+backends%2C+API+pipelines%2C+and+real-time+apps.;ConsistPay%3A+Streak+accountability+platform+(60%2B+users).;Core+Stack%3A+Node.js+%2F%2F+Express.js+%2F%2F+React.js+%2F%2F+C%2B%2B.;Solving+DSA+consistently+(300%2B+problems+in+C%2B%2B).;Building+scalable+products%2C+not+just+simple+projects.)](https://git.io/typing-svg)
+
+<br/><br/>
+
 <img src="./architecture_schematic.svg" width="100%" alt="Vansh Vijay Banner" />
 
-<br/><br/>
-
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=Building+real+products%2C+not+just+projects.;MERN+Stack+%7C+REST+APIs+%7C+WebSockets;Founder+of+ConsistPay+(Active+production+userbase);Solving+DSA+consistently+(300%2B+problems);Consistency+compounds.)](https://git.io/typing-svg)
-
-<br/><br/>
+<br/>
 
 <img src="https://vanshvijay.me/api/telemetry/live" width="100%" alt="Live System Telemetry" />
 
@@ -16,39 +16,26 @@
 
 ---
 
-# SYSTEM SPECIFICATION: VANSH VIJAY
-
----
-
-### Core Configuration
-
-> **Candidate:** Vansh Vijay (Full-Stack & Backend Systems)  
-> **University:** B.Tech CSE (2023 - 2027) @ JECRC University, Jaipur  
-> **Core Stack:** Node.js / Express.js / React.js / MongoDB / C++  
-> **Strategy:** 1500+ Peak ELO (Chess.com strategic matchmaking)  
-> **Status:** **ACTIVE_FOR_HIRING** (Open to SDE Internships / Roles)
-
----
-
 ### Production Modules
 
 <table width="100%">
 <tr>
 <td>
 
-### `module/consistpay` — Coding Streak Platform (Live)
-> [Live Platform](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
+### `module/consistpay` — Streak Accountability Platform (Live)
+> [Live Deployment](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
 
-A production-deployed application designed to solve developer inconsistency using financial accountability stakes. Used by **60+ active users**.
+**Operational Context:**
+*   A production accountability application designed to enforce developer consistency using financial stakes. Currently serving **60+ active users**.
 
-**Technical Implementations:**
-*   **Concurrency:** Resolved data-race bugs on check-ins using unique database indexes and atomic MongoDB operators (`$set`, `$setOnInsert`).
-*   **Integration:** Designed a retry-tolerant webhook receiver for Razorpay payments, guaranteeing transaction data integrity during server down sequences.
-*   **Feedback:** Linked Google Gemini API to analyze developer progress logs and output personalized habit reports.
+**Engineering Solves:**
+*   **Concurrency Locks:** Prevented duplicate check-in streak claims by implementing unique database index constraints and atomic MongoDB operators (`$set`, `$setOnInsert`).
+*   **Transaction Persistence:** Designed a retry-tolerant Razorpay webhook receiver to guarantee transaction data consistency during transient server outages.
+*   **LLM Integration:** Connected Google Gemini AI to analyze daily activity logs and write dynamic progress reports.
 
-**Telemetry Specs:**
-*   **Query Latency:** `< 5ms` database execution on index-optimized log lookups.
-*   **Request Load:** Scaled to handle `100+ req/sec` using in-memory queues.
+**System Telemetry:**
+*   **Database Latency:** `< 5ms` execution on index-optimized log queries.
+*   **Transaction Throughput:** Stress-tested to handle `100+ req/sec` using in-memory queues.
 
 </td>
 </tr>
@@ -60,17 +47,18 @@ A production-deployed application designed to solve developer inconsistency usin
 <tr>
 <td>
 
-### `module/chess-multiplayer` — Real-Time Game Lobby
+### `module/chess-multiplayer` — Real-Time WebSocket Lobby
 > [Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [Source Code](https://github.com/vanshinatorr/chess-multiplayer)
 
-A low-latency multiplayer chess platform with dynamic room codes and matchmaking.
+**Operational Context:**
+*   A low-latency multiplayer chess platform featuring dynamic room codes and matchmaking.
 
-**Technical Implementations:**
-*   **Caching:** Cached lobby and active game sessions in custom in-memory JavaScript maps instead of persistent database writes, reducing processing latency.
-*   **Resilience:** Engineered server-side match state serialization to restore active game clocks and players' connections during brief network drops.
+**Engineering Solves:**
+*   **Lobby Cache:** Stored active room metadata and game states in custom in-memory JavaScript maps to bypass heavy persistent database read/write bottlenecks.
+*   **State Recovery:** Designed server-side session serialization to restore active game clocks and players' connection states during network dropouts.
 
-**Telemetry Specs:**
-*   **Sync Latency:** Sub-`15ms` real-time move synchronization via custom Socket.IO packets.
+**System Telemetry:**
+*   **Sync Latency:** Sub-`15ms` real-time synchronization over Socket.IO connections.
 *   **Payload Size:** Optimized JSON packets to keep data transfers under `200 bytes` per move.
 
 </td>
@@ -83,18 +71,19 @@ A low-latency multiplayer chess platform with dynamic room codes and matchmaking
 <tr>
 <td>
 
-### `module/telemetry-cache-streamer` — System Metric Spooler
+### `module/telemetry-cache-streamer` — High-Performance Metric Spooler
 > [Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
 
-A background utility in C++17 to buffer, throttle, and serialize system telemetry metrics.
+**Operational Context:**
+*   A background system daemon in C++17 to buffer, throttle, and serialize system telemetry metrics.
 
-**Technical Implementations:**
-*   **Locking Strategy:** Implemented a thread-safe circular buffer with mutex synchronization, reducing thread blocking states by 78% via double-buffer asynchronous writing.
-*   **Resource Bounds:** Bounded maximum heap utilization strictly to 16MB configuration limits to prevent memory leaks in resource-constrained target environments.
+**Engineering Solves:**
+*   **Lock Contention:** Reduced thread blocking states by 78% by implementing a double-buffered circular memory queue with mutex-locked asynchronous disk writes.
+*   **Heap Boundaries:** Bounded maximum memory usage strictly to 16MB configuration limits to prevent leaks on resource-constrained servers.
 
-**Telemetry Specs:**
-*   **Heap Limit:** Capped strictly to `16MB` memory footprint.
-*   **Thread Blocking:** Reduced thread block states by 78% compared to single-mutex structures.
+**System Telemetry:**
+*   **Memory Footprint:** Bounded strictly to `16MB` memory limits.
+*   **Queue Performance:** 78% reduction in block states compared to single-mutex structures.
 
 </td>
 </tr>
@@ -108,9 +97,9 @@ A background utility in C++17 to buffer, throttle, and serialize system telemetr
 <tr>
 <td>
 
-**How to Connect:**
-*   **If you are a Recruiter / HR:** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
-*   **If you are a Developer / Tech Lead:** Copy the commands below to query my live metadata or send a hire ping directly to my Discord via your terminal!
+**Connection Routing:**
+*   **Recruiter Pipeline (Non-Technical):** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
+*   **Developer Interface (Technical):** Copy the commands below to query my live metadata or send a hire ping directly to my Discord via your terminal!
 
 </td>
 </tr>
@@ -169,17 +158,15 @@ Access-Control-Allow-Origin: *
 }
 ```
 
----
-
 ### Runtime Metrics & Analytics
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=vanshinatorr&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" width="49%" />
+  <img src="https://streak-stats.demolab.com?user=vanshinatorr&background=0d0e12&border=1e293b&stroke=334155&ring=38bdf8&fire=38bdf8&currStreakNum=e2e8f0&sideNums=cbd5e1&sideLabels=94a3b8&dates=64748b&hide_border=true&date_format=j%20M%5B%20Y%5D" width="49%" />
   <img src="./skills_radar.svg" width="49%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&bg_color=0d1117&color=a78bfa&line=7c3aed&point=c4b5fd&area=true&hide_border=true&custom_title=Contribution%20Activity" width="99%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&bg_color=0d0e12&color=38bdf8&line=38bdf8&point=38bdf8&area=true&hide_border=true&custom_title=Contribution+Activity" width="99%" />
 </p>
 
 ---
@@ -187,9 +174,5 @@ Access-Control-Allow-Origin: *
 <div align="center">
   <br/>
   
-  `[ `[LinkedIn](https://www.linkedin.com/in/vansh-vijay/)` ]`  •  `[ `[Twitter](https://x.com/vanshvijay9)` ]`  •  `[ `[Email](mailto:vanshvijay9784@gmail.com)` ]`
-
-  <br/><br/>
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=120&section=footer" width="100%"/>
+  [LinkedIn](https://www.linkedin.com/in/vansh-vijay/) &nbsp;•&nbsp; [Twitter](https://x.com/vanshvijay9) &nbsp;•&nbsp; [Email](mailto:vanshvijay9784@gmail.com)
 </div>
