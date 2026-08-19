@@ -87,7 +87,7 @@
 
 ---
 
-### Contact & Candidate API Endpoints
+### Contact & Console Interface
 
 <table width="100%">
 <tr>
@@ -95,71 +95,14 @@
 
 **Connection Routing:**
 *   **Recruiter Pipeline (Non-Technical):** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
-*   **Developer Interface (Technical):** Copy the commands below to query my live metadata or send a hire ping directly to my Discord via your terminal!
-*   **Interactive SDE Console (NPM Utility):** Run `npx vansh-vijay` in your terminal to launch a custom CLI dashboard to inspect specs and test active server connections dynamically!
+*   **Developer Console (Technical):** Run the command below in your terminal to launch a custom interactive SDE dashboard to inspect modules, test server latency, and connect directly:
+    ```bash
+    npx vansh-vijay
+    ```
 
 </td>
 </tr>
 </table>
-
-### `GET` candidate profile metadata
-> **Human Readout:** Serves Vansh's live availability status, target roles, and primary email address as standard structured data.
-
-```http
-GET https://vanshvijay.me/api/candidate/profile
-```
-#### Example Request
-```bash
-curl -s https://vanshvijay.me/api/candidate/profile | json_pp
-```
-
-#### Response Payload
-```http
-HTTP/1.1 200 OK
-Content-Type: application/json
-Access-Control-Allow-Origin: *
-
-{
-  "status": "Available",
-  "target_roles": ["SDE Intern", "Full Stack Developer", "Backend Engineer"],
-  "contact_email": "vanshvijay9784@gmail.com"
-}
-```
-
-### `POST` candidate hire notification
-> **Human Readout:** A direct server-to-phone pager line. Recruiting tools or scripts can query this API to instantly dispatch an active job opening alert to Vansh's personal Discord workspace.
-
-```http
-POST https://vanshvijay.me/api/candidate/hire
-```
-#### Request Parameters
-| Parameter | Type | Required | Description |
-| :--- | :--- | :--- | :--- |
-| `company_name` | `string` | **Yes** | Name of your company or startup |
-| `role_type` | `string` | **Yes** | Full Stack, Frontend, Backend, or SDE Intern |
-| `stipend_range`| `string` | **Yes** | Compensation package / monthly stipend range |
-
-#### Example Request
-```bash
-curl -s -X POST https://vanshvijay.me/api/candidate/hire \
-  -H "Content-Type: application/json" \
-  -d '{"company_name": "Acme Corp", "role_type": "SDE Intern", "stipend_range": "Competitive"}' | json_pp
-```
-
-#### Response Payload
-```http
-HTTP/1.1 200 OK
-Content-Type: application/json
-Access-Control-Allow-Origin: *
-
-{
-  "status": "Success",
-  "message": "Hire request received from Acme Corp for the SDE Intern role! Connection initialized.",
-  "candidate_notification": "Sent",
-  "contact_email": "vanshvijay9784@gmail.com",
-  "timestamp": "2026-08-19T02:00:00.000Z"
-}
-```
 
 ### Runtime Metrics & Analytics
 
