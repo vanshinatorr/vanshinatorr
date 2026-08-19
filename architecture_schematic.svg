@@ -74,7 +74,7 @@
 
   <!-- Top Header Bar -->
   <line x1="0" y1="36" x2="800" y2="36" stroke="#1e293b" stroke-width="1" />
-  <text x="20" y="23" class="text-header">VANSH VIJAY // ARCHITECTURE SCHEMATIC</text>
+  <text x="20" y="23" class="text-header">VANSH VIJAY | SYSTEM ARCHITECTURE</text>
   <text x="780" y="23" class="label-meta" text-anchor="end">SYS_STATUS: ACTIVE [v1.2.0-stable]</text>
 
   <!-- Column Dividers -->
