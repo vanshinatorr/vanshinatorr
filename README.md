@@ -4,7 +4,11 @@
 
 <br/><br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=Building+real+products%2C+not+just+projects.;MERN+Stack+%7C+REST+APIs+%7C+WebSockets;Founder+of+ConsistPay+%F0%9F%9A%80+%E2%80%94+60%2B+real+users;Solving+DSA+consistently+%7C+300%2B+problems;Consistency+compounds.+%F0%9F%94%A5)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=24&pause=1000&color=A78BFA&center=true&vCenter=true&width=750&lines=Building+real+products%2C+not+just+projects.;MERN+Stack+%7C+REST+APIs+%7C+WebSockets;Founder+of+ConsistPay+(Active+production+userbase);Solving+DSA+consistently+(300%2B+problems);Consistency+compounds.)](https://git.io/typing-svg)
+
+<br/><br/>
+
+<img src="https://vanshvijay.me/api/telemetry/live" width="100%" alt="Live System Telemetry" />
 
 <br/><br/>
 
@@ -33,13 +37,14 @@
 
 A production-deployed application designed to solve developer inconsistency using financial accountability stakes. Used by **60+ active users**.
 
-*   **Race Condition Prevention:** Resolved data-race bugs on streak check-ins by implementing unique index schemas and atomic MongoDB operators (`$set`, `$setOnInsert`).
-*   **Webhook Reliability:** Created a retry-tolerant webhook receiver for Razorpay payments, guaranteeing data persistence even during transient server drops.
-*   **AI-Driven Activity Logs:** Embedded Google Gemini API to parse developer logs and generate customized feedback.
+**Technical Implementations:**
+*   **Concurrency:** Resolved data-race bugs on check-ins using unique database indexes and atomic MongoDB operators (`$set`, `$setOnInsert`).
+*   **Integration:** Designed a retry-tolerant webhook receiver for Razorpay payments, guaranteeing transaction data integrity during server down sequences.
+*   **Feedback:** Linked Google Gemini API to analyze developer progress logs and output personalized habit reports.
 
-**Performance Telemetry:**
-*   **DB Latency:** `< 5ms` query speed on index-optimized log lookups.
-*   **Concurrency:** Stress-tested to handle `100+ req/sec` using in-memory queues.
+**Telemetry Specs:**
+*   **Query Latency:** `< 5ms` database execution on index-optimized log lookups.
+*   **Request Load:** Scaled to handle `100+ req/sec` using in-memory queues.
 
 ---
 
@@ -48,12 +53,13 @@ A production-deployed application designed to solve developer inconsistency usin
 
 A low-latency multiplayer chess platform with dynamic room codes and matchmaking.
 
-*   **In-Memory Cache Sync:** Achieved sub-15ms sync latency by caching lobby and match states in custom memory maps instead of persistent database writes.
-*   **State Recovery:** Engineered server-side match serialization, allowing users to reconnect and resume active match timers on brief network drops.
+**Technical Implementations:**
+*   **Caching:** Cached lobby and active game sessions in custom in-memory JavaScript maps instead of persistent database writes, reducing processing latency.
+*   **Resilience:** Engineered server-side match state serialization to restore active game clocks and players' connections during brief network drops.
 
-**Performance Telemetry:**
-*   **Sync Latency:** Sub-`15ms` real-time sync via in-memory Socket.IO caches.
-*   **Packet Payload:** Compact JSON structures (`< 200 bytes` per move packet) to minimize bandwith.
+**Telemetry Specs:**
+*   **Sync Latency:** Sub-`15ms` real-time move synchronization via custom Socket.IO packets.
+*   **Payload Size:** Optimized JSON packets to keep data transfers under `200 bytes` per move.
 
 ---
 
@@ -62,20 +68,21 @@ A low-latency multiplayer chess platform with dynamic room codes and matchmaking
 
 A background utility in C++17 to buffer, throttle, and serialize system telemetry metrics.
 
-*   **Low-Lock Queue:** Implemented a thread-safe circular buffer using mutex synchronization, cutting thread blocking by 78% via asynchronous double-buffer writing.
-*   **Memory Boundary Limits:** Bounded total heap usage strictly to 16MB configuration limits to prevent memory leaks in resource-constrained environments.
+**Technical Implementations:**
+*   **Locking Strategy:** Implemented a thread-safe circular buffer with mutex synchronization, reducing thread blocking states by 78% via double-buffer asynchronous writing.
+*   **Resource Bounds:** Bounded maximum heap utilization strictly to 16MB configuration limits to prevent memory leaks in resource-constrained target environments.
 
-**Performance Telemetry:**
-*   **Memory Footprint:** Capped strictly to `16MB` configuration limits.
-*   **Queue Speedup:** 78% reduction in block states compared to single-mutex structures.
+**Telemetry Specs:**
+*   **Heap Limit:** Capped strictly to `16MB` memory footprint.
+*   **Thread Blocking:** Reduced thread block states by 78% compared to single-mutex structures.
 
 ---
 
-### Connection API Reference
+### Contact & Candidate API Endpoints
 
-> ⚡ **Quick Connection:** If you are a recruiter, you can [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/).
->
-> *For developers & systems builders, you can query my candidate metadata endpoints directly:*
+> **How to Connect:**
+> *   **If you are a Recruiter / HR:** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
+> *   **If you are a Developer / Tech Lead:** Copy the commands below to query my live metadata or send a hire ping directly to my Discord via your terminal!
 
 ```http
 GET https://vanshvijay.me/api/candidate/profile
