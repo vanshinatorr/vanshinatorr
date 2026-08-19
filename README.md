@@ -113,8 +113,6 @@
 
 ---
 
-<h3 align="center">Runtime Metrics & Analytics</h3>
-
 <table width="100%">
 <tr>
 <td width="50%" align="center">
