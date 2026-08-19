@@ -4,30 +4,31 @@
   <style>
     .label-meta {
       font-family: 'JetBrains Mono', 'Fira Code', monospace;
-      font-size: 10px;
-      fill: #64748b;
+      font-size: 11px;
+      fill: #94a3b8;
       letter-spacing: 0.08em;
     }
     .text-header {
       font-family: 'JetBrains Mono', monospace;
       font-weight: bold;
-      font-size: 13px;
-      fill: #e2e8f0;
+      font-size: 14px;
+      fill: #ffffff;
       letter-spacing: 0.05em;
     }
     .text-diagram {
       font-family: 'JetBrains Mono', monospace;
-      font-size: 10px;
-      fill: #cbd5e1;
+      font-size: 11px;
+      fill: #ffffff;
       transition: fill 0.25s;
     }
     .text-specs {
       font-family: 'JetBrains Mono', monospace;
-      font-size: 12px;
-      fill: #e2e8f0;
+      font-size: 13px;
+      fill: #94a3b8;
     }
     .spec-value {
-      fill: #e2e8f0;
+      fill: #ffffff;
+      font-weight: bold;
       transition: fill 0.25s;
     }
     .spec-tag {
