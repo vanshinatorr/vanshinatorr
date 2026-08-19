@@ -95,7 +95,7 @@
 
 <sub>COMMUNICATION INTERFACES</sub>
 
-## `❯ npx vansh-vijay`
+### `❯ npx vansh-vijay`
 
 <sub>Run in local terminal to boot SDE console</sub>
 
