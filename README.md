@@ -91,14 +91,20 @@
 
 ### Contact & Console Interface
 
-<p align="center">
-  <img src="./terminal_console.svg" width="100%" alt="Connection Console" />
-</p>
+<table width="100%">
+<tr>
+<td>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/vansh-vijay/" target="_blank"><b>LinkedIn Profile</b></a> • 
-  <a href="mailto:vanshvijay9784@gmail.com"><b>Direct Email</b></a>
-</p>
+**Connection Routing:**
+*   **Non-Technical Recruiters:** Connect directly on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or send an [**Email**](mailto:vanshvijay9784@gmail.com) for SDE roles, opportunities, or inquiries.
+*   **Technical SDE Leads:** Run this command in your local terminal to boot up my interactive console profile:
+    ```bash
+    npx vansh-vijay
+    ```
+
+</td>
+</tr>
+</table>
 
 ---
 
