@@ -94,8 +94,8 @@
 <td>
 
 **Connection Routing:**
-*   **Recruiter Pipeline (Non-Technical):** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
-*   **Developer Console (Technical):** Run the command below in your terminal to launch a custom interactive SDE dashboard to inspect modules, test server latency, and connect directly:
+*   **Non-Technical:** Connect via [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or [**Email me directly**](mailto:vanshvijay9784@gmail.com).
+*   **Technical:** Run this command in your terminal to launch the interactive SDE console:
     ```bash
     npx vansh-vijay
     ```
