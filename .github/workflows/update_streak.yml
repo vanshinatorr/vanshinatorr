@@ -18,9 +18,16 @@ jobs:
       - name: Checkout Code
         uses: actions/checkout@v3
 
-      - name: Fetch Latest Streak SVG
+      - name: Fetch and Validate Streak SVG
         run: |
-          curl -s -o streak_stats.svg "https://streak-stats.demolab.com?user=vanshinatorr&background=0d0e12&border=1e293b&stroke=334155&ring=38bdf8&fire=38bdf8&currStreakNum=e2e8f0&sideNums=cbd5e1&sideLabels=94a3b8&dates=64748b&hide_border=true&date_format=j%20M%5B%20Y%5D"
+          curl -f -s -o temp_streak.svg "https://streak-stats.demolab.com?user=vanshinatorr&background=0d0e12&border=1e293b&stroke=334155&ring=38bdf8&fire=38bdf8&currStreakNum=e2e8f0&sideNums=cbd5e1&sideLabels=94a3b8&dates=64748b&hide_border=true&date_format=j%20M%5B%20Y%5D"
+          if [ $? -eq 0 ] && [ -s temp_streak.svg ] && grep -q "<svg" temp_streak.svg; then
+            mv temp_streak.svg streak_stats.svg
+            echo "Validation passed. Streak stats SVG cache updated."
+          else
+            echo "Validation failed (Server returned 503/Error). Retaining previous cached SVG to prevent profile display errors."
+            rm -f temp_streak.svg
+          fi
 
       - name: Commit and Push Cache
         run: |
