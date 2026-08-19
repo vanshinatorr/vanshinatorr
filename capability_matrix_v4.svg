@@ -86,7 +86,7 @@
   <!-- Left Column: Interactive Legend & Linear Metrics -->
   <g>
     <!-- Title & Header -->
-    <text x="20" y="25" class="chart-title">03 / CORE COMPETENCIES</text>
+    <text x="20" y="25" class="chart-title">03 / EXPERTISE</text>
 
     <!-- Linear Metric Bar 1: Backend (95%) -->
     <g transform="translate(20, 52)">
