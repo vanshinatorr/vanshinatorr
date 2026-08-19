@@ -101,7 +101,7 @@ Connect directly via LinkedIn/Email, or run this command to boot my interactive 
 
 <br/><br/>
 
-[**LinkedIn Profile**](https://www.linkedin.com/in/vansh-vijay/) &nbsp;&nbsp;•&nbsp;&nbsp; [**Direct Email**](mailto:vanshvijay9784@gmail.com)
+[**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) &nbsp;&nbsp;•&nbsp;&nbsp; [**Email**](mailto:vanshvijay9784@gmail.com)
 
 </div>
 
