@@ -109,7 +109,7 @@
 ### Runtime Metrics & Analytics
 
 <p align="center">
-  <img src="./capability_matrix_v3.svg" width="100%" alt="Capability Matrix" />
+  <img src="./capability_matrix_v4.svg" width="100%" alt="Capability Matrix" />
 </p>
 
 <p align="center">

@@ -51,11 +51,6 @@
       fill: #ffffff;
       font-weight: bold;
     }
-    .grid-label {
-      font-family: 'JetBrains Mono', monospace;
-      font-size: 7.5px;
-      fill: #475569;
-    }
     .chart-title {
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
@@ -147,11 +142,6 @@
     <polygon points="350,65.4 387.7,92.8 373.3,137 326.7,137 312.3,92.8" fill="none" class="grid-line" />
     <!-- 33% Limit -->
     <polygon points="350,85.2 368.8,98.9 361.6,121 338.4,121 331.2,98.9" fill="none" class="grid-line" />
-
-    <!-- Grid Scale Labels -->
-    <text x="353" y="50" class="grid-label">1.00</text>
-    <text x="353" y="70" class="grid-label">0.66</text>
-    <text x="353" y="90" class="grid-label">0.33</text>
 
     <!-- Axis Lines -->
     <line x1="350" y1="105" x2="350" y2="45" class="axis-line" />
