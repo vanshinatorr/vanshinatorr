@@ -91,14 +91,17 @@
 
 ### Contact & Console Interface
 
-<p align="center">
-  <img src="./contact_panel.svg" width="100%" alt="Communications Interface" />
-</p>
+<div align="center">
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/vansh-vijay/" target="_blank"><b>LinkedIn Profile</b></a> &nbsp;•&nbsp; 
-  <a href="mailto:vanshvijay9784@gmail.com"><b>Direct Email</b></a>
-</p>
+`npx vansh-vijay`
+
+<sub>Run in terminal to boot SDE console</sub>
+
+<br/><br/>
+
+[**LinkedIn Profile**](https://www.linkedin.com/in/vansh-vijay/) &nbsp;•&nbsp; [**Direct Email**](mailto:vanshvijay9784@gmail.com)
+
+</div>
 
 ---
 
