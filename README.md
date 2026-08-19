@@ -89,7 +89,7 @@
 
 ---
 
-<h3 align="center">Contact Me</h3>
+### Contact Me
 
 <div align="center">
 
