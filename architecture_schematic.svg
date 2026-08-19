@@ -23,7 +23,7 @@
     }
     .text-specs {
       font-family: 'JetBrains Mono', monospace;
-      font-size: 13px;
+      font-size: 11.5px;
       fill: #94a3b8;
     }
     .spec-value {
@@ -115,15 +115,15 @@
   </g>
 
   <!-- RIGHT COLUMN: System Specifications & Identity -->
-  <g transform="translate(415, 0)">
+  <g transform="translate(405, 0)">
     <text x="0" y="58" class="label-meta">02 / CORE SPECIFICATIONS</text>
     
     <g transform="translate(0, 80)" class="text-specs">
       <g class="spec-row"><text x="0" y="5">DEVELOPER   : <tspan class="spec-value">Vansh Vijay</tspan></text></g>
-      <g class="spec-row"><text x="0" y="30">SPECIALTY   : <tspan class="spec-value">Node.js Backends &amp; Real-time Systems</tspan></text></g>
+      <g class="spec-row"><text x="0" y="30">SPECIALTY   : <tspan class="spec-value">Node.js &amp; Real-time Backends</tspan></text></g>
       <g class="spec-row"><text x="0" y="55">DSA ENGINE  : <tspan class="spec-value">300+ Problems Solved</tspan> <tspan class="spec-tag">[C++]</tspan></text></g>
-      <g class="spec-row"><text x="0" y="80">ACTIVE APP  : <tspan class="spec-value">ConsistPay (60+ Active Users, Monetized)</tspan></text></g>
-      <g class="spec-row"><text x="0" y="105">MATCHMAKER : <tspan class="spec-value">Chess Multiplayer (Socket.IO Room Sync)</tspan></text></g>
+      <g class="spec-row"><text x="0" y="80">ACTIVE APP  : <tspan class="spec-value">ConsistPay (60+ Active Users)</tspan></text></g>
+      <g class="spec-row"><text x="0" y="105">MATCHMAKER : <tspan class="spec-value">Chess (Real-time Socket.IO Sync)</tspan></text></g>
     </g>
   </g>
 
