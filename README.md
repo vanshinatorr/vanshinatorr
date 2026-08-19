@@ -93,11 +93,11 @@
 
 <div align="center">
 
-Connect directly via LinkedIn/Email, or run this command to boot my interactive terminal portfolio:
+<sub>COMMUNICATION INTERFACES</sub>
 
-<br/>
+## `❯ npx vansh-vijay`
 
-`❯ npx vansh-vijay`
+<sub>Run in local terminal to boot SDE console</sub>
 
 <br/><br/>
 
