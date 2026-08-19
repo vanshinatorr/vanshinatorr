@@ -1,24 +1,48 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="100%" height="100%">
+  <!-- Definitions for gradients and filters -->
+  <defs>
+    <!-- Soft holographic glow centered on the radar chart -->
+    <radialGradient id="radarGlow" cx="350" cy="105" r="75" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.22" />
+      <stop offset="50%" stop-color="#38bdf8" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Linear gradient for progress bars -->
+    <linearGradient id="barGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0284c7" />
+      <stop offset="100%" stop-color="#38bdf8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Card Shell -->
   <rect x="0.5" y="0.5" width="494" height="194" fill="#0d0e12" stroke="#1e293b" stroke-width="1" rx="6" ry="6" />
+
+  <!-- Tactical HUD Corner Brackets -->
+  <path d="M 8 18 L 8 8 L 18 8" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <path d="M 487 18 L 487 8 L 477 8" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <path d="M 8 177 L 8 187 L 18 187" fill="none" stroke="#1e293b" stroke-width="1.5" />
+  <path d="M 487 177 L 487 187 L 477 187" fill="none" stroke="#1e293b" stroke-width="1.5" />
+
   <!-- CSS Styles -->
   <style>
     .grid-line {
       stroke: #1e293b;
-      stroke-width: 1;
+      stroke-width: 0.75;
       stroke-dasharray: 2 2;
     }
     .axis-line {
       stroke: #1e293b;
-      stroke-width: 1;
+      stroke-width: 0.75;
     }
     .radar-poly {
-      fill: rgba(56, 189, 248, 0.12);
+      fill: rgba(56, 189, 248, 0.14);
       stroke: #38bdf8;
-      stroke-width: 1.5;
+      stroke-width: 1.75;
       transition: fill 0.3s, stroke 0.3s;
     }
     .radar-poly:hover {
-      fill: rgba(56, 189, 248, 0.18);
+      fill: rgba(56, 189, 248, 0.22);
       stroke: #38bdf8;
     }
     .radar-label {
@@ -30,18 +54,18 @@
     .grid-label {
       font-family: 'JetBrains Mono', monospace;
       font-size: 7.5px;
-      fill: #94a3b8;
+      fill: #475569;
     }
     .chart-title {
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
-      fill: #e2e8f0;
+      fill: #ffffff;
       letter-spacing: 0.05em;
       font-weight: bold;
     }
     .label-header {
       font-family: 'JetBrains Mono', monospace;
-      font-size: 9px;
+      font-size: 8.5px;
       fill: #64748b;
       letter-spacing: 0.08em;
       font-weight: bold;
@@ -57,57 +81,65 @@
       fill: #ffffff;
       font-weight: bold;
     }
+    .hud-meta {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 7px;
+      fill: #334155;
+    }
   </style>
 
   <!-- Left Column: Interactive Legend & Linear Metrics -->
-  <g transform="translate(0, 0)">
+  <g>
     <!-- Title & Header -->
-    <text x="20" y="24" class="chart-title">03 / CAPABILITY MATRIX</text>
+    <text x="20" y="25" class="chart-title">03 / CAPABILITY MATRIX</text>
     <text x="20" y="44" class="label-header">METRIC PROFILE</text>
 
     <!-- Linear Metric Bar 1: Backend (95%) -->
     <g transform="translate(20, 52)">
       <text x="0" y="10" class="stat-row-label">BACKEND</text>
-      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
-      <rect x="90" y="2" width="76" height="7" fill="#38bdf8" rx="2.5" />
+      <rect x="90" y="2" width="80" height="7" fill="#161b22" rx="2.5" stroke="#21262d" stroke-width="0.5" />
+      <rect x="90" y="2" width="76" height="7" fill="url(#barGradient)" rx="2.5" />
       <text x="180" y="10" class="stat-row-val">95%</text>
     </g>
 
     <!-- Linear Metric Bar 2: Databases (75%) -->
     <g transform="translate(20, 76)">
       <text x="0" y="10" class="stat-row-label">DATABASES</text>
-      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
-      <rect x="90" y="2" width="60" height="7" fill="#38bdf8" rx="2.5" />
+      <rect x="90" y="2" width="80" height="7" fill="#161b22" rx="2.5" stroke="#21262d" stroke-width="0.5" />
+      <rect x="90" y="2" width="60" height="7" fill="url(#barGradient)" rx="2.5" />
       <text x="180" y="10" class="stat-row-val">75%</text>
     </g>
 
     <!-- Linear Metric Bar 3: DSA Engine (85%) -->
     <g transform="translate(20, 100)">
       <text x="0" y="10" class="stat-row-label">DSA</text>
-      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
-      <rect x="90" y="2" width="68" height="7" fill="#38bdf8" rx="2.5" />
+      <rect x="90" y="2" width="80" height="7" fill="#161b22" rx="2.5" stroke="#21262d" stroke-width="0.5" />
+      <rect x="90" y="2" width="68" height="7" fill="url(#barGradient)" rx="2.5" />
       <text x="180" y="10" class="stat-row-val">85%</text>
     </g>
 
     <!-- Linear Metric Bar 4: Systems (70%) -->
     <g transform="translate(20, 124)">
       <text x="0" y="10" class="stat-row-label">SYSTEMS</text>
-      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
-      <rect x="90" y="2" width="56" height="7" fill="#38bdf8" rx="2.5" />
+      <rect x="90" y="2" width="80" height="7" fill="#161b22" rx="2.5" stroke="#21262d" stroke-width="0.5" />
+      <rect x="90" y="2" width="56" height="7" fill="url(#barGradient)" rx="2.5" />
       <text x="180" y="10" class="stat-row-val">70%</text>
     </g>
 
     <!-- Linear Metric Bar 5: Frontend (65%) -->
     <g transform="translate(20, 148)">
       <text x="0" y="10" class="stat-row-label">FRONTEND</text>
-      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
-      <rect x="90" y="2" width="52" height="7" fill="#38bdf8" rx="2.5" />
+      <rect x="90" y="2" width="80" height="7" fill="#161b22" rx="2.5" stroke="#21262d" stroke-width="0.5" />
+      <rect x="90" y="2" width="52" height="7" fill="url(#barGradient)" rx="2.5" />
       <text x="180" y="10" class="stat-row-val">65%</text>
     </g>
   </g>
 
-  <!-- Right Column: Scaled Web Pentagon (Centered at x=350, y=105, r=60) -->
+  <!-- Right Column: Holographic Spider Web Pentagon (Centered at x=350, y=105, r=60) -->
   <g>
+    <!-- Background Holographic Glow Circle -->
+    <circle cx="350" cy="105" r="72" fill="url(#radarGlow)" />
+
     <!-- Nested Grid Pentagons -->
     <!-- 100% Limit -->
     <polygon points="350,45 407.1,86.5 385.3,153.5 314.7,153.5 292.9,86.5" fill="none" class="grid-line" />
@@ -131,12 +163,21 @@
     <!-- Actual Candidate Skill Polygon (r=60 max) -->
     <polygon points="350,48 398.5,89.2 374.7,139 327.1,136.6 307.2,91.1" class="radar-poly" />
 
-    <!-- Vertices Data Nodes -->
-    <circle cx="350" cy="48" r="2.2" fill="#66fcf1" />
-    <circle cx="398.5" cy="89.2" r="2.2" fill="#66fcf1" />
-    <circle cx="374.7" cy="139" r="2.2" fill="#66fcf1" />
-    <circle cx="327.1" cy="136.6" r="2.2" fill="#66fcf1" />
-    <circle cx="307.2" cy="91.1" r="2.2" fill="#66fcf1" />
+    <!-- Vertices Data Nodes with ring glowing effect -->
+    <circle cx="350" cy="48" r="3.5" fill="rgba(102, 252, 241, 0.3)" />
+    <circle cx="350" cy="48" r="1.5" fill="#66fcf1" />
+
+    <circle cx="398.5" cy="89.2" r="3.5" fill="rgba(102, 252, 241, 0.3)" />
+    <circle cx="398.5" cy="89.2" r="1.5" fill="#66fcf1" />
+
+    <circle cx="374.7" cy="139" r="3.5" fill="rgba(102, 252, 241, 0.3)" />
+    <circle cx="374.7" cy="139" r="1.5" fill="#66fcf1" />
+
+    <circle cx="327.1" cy="136.6" r="3.5" fill="rgba(102, 252, 241, 0.3)" />
+    <circle cx="327.1" cy="136.6" r="1.5" fill="#66fcf1" />
+
+    <circle cx="307.2" cy="91.1" r="3.5" fill="rgba(102, 252, 241, 0.3)" />
+    <circle cx="307.2" cy="91.1" r="1.5" fill="#66fcf1" />
 
     <!-- Pentagon Vertices Labels -->
     <text x="350" y="38" class="radar-label" text-anchor="middle">BACKEND</text>
@@ -145,4 +186,8 @@
     <text x="309" y="165" class="radar-label" text-anchor="end">FRONTEND</text>
     <text x="285" y="89" class="radar-label" text-anchor="end">DATABASES</text>
   </g>
+
+  <!-- Subtle HUD Meta Labels in Corners -->
+  <text x="22" y="181" class="hud-meta">SYS_METRIC: TRACE_ACTIVE</text>
+  <text x="180" y="181" class="hud-meta">CHART_SCALE: 0.1x</text>
 </svg>
