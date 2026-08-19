@@ -98,11 +98,7 @@
 
 <sub>COMMUNICATION INTERFACES</sub>
 
-<br/><br/>
-
-<img src="./npx_launcher.svg?v=1" width="360" alt="Terminal Command" />
-
-<br/>
+### `❯ npx vansh-vijay`
 
 <sub>Run in terminal</sub>
 
