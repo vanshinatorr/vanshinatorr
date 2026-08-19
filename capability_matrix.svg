@@ -23,7 +23,7 @@
     }
     .radar-label {
       font-family: 'JetBrains Mono', 'Fira Code', monospace;
-      font-size: 10px;
+      font-size: 9.5px;
       fill: #ffffff;
       font-weight: bold;
     }
@@ -35,48 +35,114 @@
     .chart-title {
       font-family: 'JetBrains Mono', monospace;
       font-size: 11px;
-      fill: #94a3b8;
+      fill: #e2e8f0;
       letter-spacing: 0.05em;
+      font-weight: bold;
+    }
+    .label-header {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 9px;
+      fill: #64748b;
+      letter-spacing: 0.08em;
+      font-weight: bold;
+    }
+    .stat-row-label {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      fill: #94a3b8;
+    }
+    .stat-row-val {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 10px;
+      fill: #ffffff;
+      font-weight: bold;
     }
   </style>
 
-  <!-- Title -->
-  <text x="20" y="24" class="chart-title">03 / CAPABILITY MATRIX</text>
+  <!-- Left Column: Interactive Legend & Linear Metrics -->
+  <g transform="translate(0, 0)">
+    <!-- Title & Header -->
+    <text x="20" y="24" class="chart-title">03 / CAPABILITY MATRIX</text>
+    <text x="20" y="44" class="label-header">METRIC PROFILE</text>
 
-  <!-- Nested Grid Pentagons (Centered at 247.5, 105) - Scaled Up to r=80 -->
-  <!-- 100% Limit -->
-  <polygon points="247.5,25 323.6,80.3 294.5,169.7 200.5,169.7 171.4,80.3" fill="none" class="grid-line" />
-  <!-- 66% Limit -->
-  <polygon points="247.5,52.2 297.7,88.7 278.5,147.7 216.5,147.7 197.3,88.7" fill="none" class="grid-line" />
-  <!-- 33% Limit -->
-  <polygon points="247.5,78.6 272.6,96.8 263.0,126.4 232.0,126.4 222.4,96.8" fill="none" class="grid-line" />
+    <!-- Linear Metric Bar 1: Backend (95%) -->
+    <g transform="translate(20, 52)">
+      <text x="0" y="10" class="stat-row-label">BACKEND</text>
+      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
+      <rect x="90" y="2" width="76" height="7" fill="#38bdf8" rx="2.5" />
+      <text x="180" y="10" class="stat-row-val">95%</text>
+    </g>
 
-  <!-- Grid Scale Labels -->
-  <text x="250.5" y="31" class="grid-label">1.00</text>
-  <text x="250.5" y="58" class="grid-label">0.66</text>
-  <text x="250.5" y="85" class="grid-label">0.33</text>
+    <!-- Linear Metric Bar 2: Databases (75%) -->
+    <g transform="translate(20, 76)">
+      <text x="0" y="10" class="stat-row-label">DATABASES</text>
+      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
+      <rect x="90" y="2" width="60" height="7" fill="#38bdf8" rx="2.5" />
+      <text x="180" y="10" class="stat-row-val">75%</text>
+    </g>
 
-  <!-- Axis Lines (from center (247.5, 105)) -->
-  <line x1="247.5" y1="105" x2="247.5" y2="25" class="axis-line" />
-  <line x1="247.5" y1="105" x2="323.6" y2="80.3" class="axis-line" />
-  <line x1="247.5" y1="105" x2="294.5" y2="169.7" class="axis-line" />
-  <line x1="247.5" y1="105" x2="200.5" y2="169.7" class="axis-line" />
-  <line x1="247.5" y1="105" x2="171.4" y2="80.3" class="axis-line" />
+    <!-- Linear Metric Bar 3: DSA Engine (85%) -->
+    <g transform="translate(20, 100)">
+      <text x="0" y="10" class="stat-row-label">DSA</text>
+      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
+      <rect x="90" y="2" width="68" height="7" fill="#38bdf8" rx="2.5" />
+      <text x="180" y="10" class="stat-row-val">85%</text>
+    </g>
 
-  <!-- Actual Candidate Skill Polygon (Scaled to r=80 max) -->
-  <polygon points="247.5,29 312.2,84 280.4,150.3 216.9,147.1 190.4,86.5" class="radar-poly" />
+    <!-- Linear Metric Bar 4: Systems (70%) -->
+    <g transform="translate(20, 124)">
+      <text x="0" y="10" class="stat-row-label">SYSTEMS</text>
+      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
+      <rect x="90" y="2" width="56" height="7" fill="#38bdf8" rx="2.5" />
+      <text x="180" y="10" class="stat-row-val">70%</text>
+    </g>
 
-  <!-- Vertices Data Nodes -->
-  <circle cx="247.5" cy="29" r="2.5" fill="#66fcf1" />
-  <circle cx="312.2" cy="84" r="2.5" fill="#66fcf1" />
-  <circle cx="280.4" cy="150.3" r="2.5" fill="#66fcf1" />
-  <circle cx="216.9" cy="147.1" r="2.5" fill="#66fcf1" />
-  <circle cx="190.4" cy="86.5" r="2.5" fill="#66fcf1" />
+    <!-- Linear Metric Bar 5: Frontend (65%) -->
+    <g transform="translate(20, 148)">
+      <text x="0" y="10" class="stat-row-label">FRONTEND</text>
+      <rect x="90" y="2" width="80" height="7" fill="#1e293b" rx="2.5" />
+      <rect x="90" y="2" width="52" height="7" fill="#38bdf8" rx="2.5" />
+      <text x="180" y="10" class="stat-row-val">65%</text>
+    </g>
+  </g>
 
-  <!-- Labels -->
-  <text x="247.5" y="18" class="radar-label" text-anchor="middle">BACKEND</text>
-  <text x="332" y="83" class="radar-label" text-anchor="start">DSA</text>
-  <text x="302" y="182" class="radar-label" text-anchor="start">SYSTEMS</text>
-  <text x="193" y="182" class="radar-label" text-anchor="end">FRONTEND</text>
-  <text x="163" y="83" class="radar-label" text-anchor="end">DATABASES</text>
+  <!-- Right Column: Scaled Web Pentagon (Centered at x=350, y=105, r=60) -->
+  <g>
+    <!-- Nested Grid Pentagons -->
+    <!-- 100% Limit -->
+    <polygon points="350,45 407.1,86.5 385.3,153.5 314.7,153.5 292.9,86.5" fill="none" class="grid-line" />
+    <!-- 66% Limit -->
+    <polygon points="350,65.4 387.7,92.8 373.3,137 326.7,137 312.3,92.8" fill="none" class="grid-line" />
+    <!-- 33% Limit -->
+    <polygon points="350,85.2 368.8,98.9 361.6,121 338.4,121 331.2,98.9" fill="none" class="grid-line" />
+
+    <!-- Grid Scale Labels -->
+    <text x="353" y="50" class="grid-label">1.00</text>
+    <text x="353" y="70" class="grid-label">0.66</text>
+    <text x="353" y="90" class="grid-label">0.33</text>
+
+    <!-- Axis Lines -->
+    <line x1="350" y1="105" x2="350" y2="45" class="axis-line" />
+    <line x1="350" y1="105" x2="407.1" y2="86.5" class="axis-line" />
+    <line x1="350" y1="105" x2="385.3" y2="153.5" class="axis-line" />
+    <line x1="350" y1="105" x2="314.7" y2="153.5" class="axis-line" />
+    <line x1="350" y1="105" x2="292.9" y2="86.5" class="axis-line" />
+
+    <!-- Actual Candidate Skill Polygon (r=60 max) -->
+    <polygon points="350,48 398.5,89.2 374.7,139 327.1,136.6 307.2,91.1" class="radar-poly" />
+
+    <!-- Vertices Data Nodes -->
+    <circle cx="350" cy="48" r="2.2" fill="#66fcf1" />
+    <circle cx="398.5" cy="89.2" r="2.2" fill="#66fcf1" />
+    <circle cx="374.7" cy="139" r="2.2" fill="#66fcf1" />
+    <circle cx="327.1" cy="136.6" r="2.2" fill="#66fcf1" />
+    <circle cx="307.2" cy="91.1" r="2.2" fill="#66fcf1" />
+
+    <!-- Pentagon Vertices Labels -->
+    <text x="350" y="38" class="radar-label" text-anchor="middle">BACKEND</text>
+    <text x="414" y="89" class="radar-label" text-anchor="start">DSA</text>
+    <text x="391" y="165" class="radar-label" text-anchor="start">SYSTEMS</text>
+    <text x="309" y="165" class="radar-label" text-anchor="end">FRONTEND</text>
+    <text x="285" y="89" class="radar-label" text-anchor="end">DATABASES</text>
+  </g>
 </svg>
