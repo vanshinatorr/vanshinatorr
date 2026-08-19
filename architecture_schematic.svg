@@ -79,7 +79,7 @@
   <line x1="390" y1="36" x2="390" y2="220" stroke="#1e293b" stroke-width="1" />
 
   <!-- LEFT COLUMN: System Architecture Diagram (Flowchart) -->
-  <text x="20" y="58" class="label-meta">01 / INTERACTIVE STACK PIPELINE [HOVER TO EXPAND]</text>
+  <text x="20" y="58" class="label-meta">01 / SYSTEM STACK PIPELINE</text>
   
   <g transform="translate(20, 70)">
     <!-- Box 1: Client UI -->

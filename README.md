@@ -41,8 +41,6 @@
 </tr>
 </table>
 
----
-
 <table width="100%">
 <tr>
 <td>
@@ -64,8 +62,6 @@
 </td>
 </tr>
 </table>
-
----
 
 <table width="100%">
 <tr>
@@ -100,6 +96,7 @@
 **Connection Routing:**
 *   **Recruiter Pipeline (Non-Technical):** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
 *   **Developer Interface (Technical):** Copy the commands below to query my live metadata or send a hire ping directly to my Discord via your terminal!
+*   **Interactive SDE Console (NPM Utility):** Run `npx vansh-vijay` in your terminal to launch a custom CLI dashboard to inspect specs and test active server connections dynamically!
 
 </td>
 </tr>
@@ -160,14 +157,22 @@ Access-Control-Allow-Origin: *
 
 ### Runtime Metrics & Analytics
 
+<table width="100%">
+<tr>
+<td>
+
 <p align="center">
-  <img src="https://streak-stats.demolab.com?user=vanshinatorr&background=0d0e12&border=1e293b&stroke=334155&ring=38bdf8&fire=38bdf8&currStreakNum=e2e8f0&sideNums=cbd5e1&sideLabels=94a3b8&dates=64748b&hide_border=true&date_format=j%20M%5B%20Y%5D" width="49%" />
+  <img src="./streak_stats.svg" width="49%" alt="GitHub Streak Stats" />
   <img src="./skills_radar.svg" width="49%" />
 </p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&bg_color=0d0e12&color=38bdf8&line=38bdf8&point=38bdf8&area=true&hide_border=true&custom_title=Contribution+Activity" width="99%" />
 </p>
+
+</td>
+</tr>
+</table>
 
 ---
 
