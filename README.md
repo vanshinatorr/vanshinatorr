@@ -108,22 +108,17 @@
 
 ### Runtime Metrics & Analytics
 
-<table width="100%">
-<tr>
-<td>
-
 <p align="center">
-  <img src="./streak_stats.svg" width="49%" alt="GitHub Streak Stats" />
-  <img src="./capability_matrix_v2.svg" width="49%" />
+  <img src="./capability_matrix_v2.svg" width="100%" alt="Capability Matrix" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&bg_color=0d0e12&color=38bdf8&line=38bdf8&point=38bdf8&area=true&hide_border=true&custom_title=Contribution+Activity" width="99%" />
+  <img src="./streak_stats.svg" width="100%" alt="GitHub Streak Stats" />
 </p>
 
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=vanshinatorr&bg_color=0d0e12&color=38bdf8&line=38bdf8&point=38bdf8&area=true&hide_border=true&custom_title=Contribution+Activity" width="100%" />
+</p>
 
 ---
 
