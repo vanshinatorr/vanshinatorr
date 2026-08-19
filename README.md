@@ -2,7 +2,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=21&pause=1000&duration=4000&color=38bdf8&center=true&vCenter=true&width=800&height=40&lines=Building+backends%2C+API+pipelines%2C+and+real-time+apps.;ConsistPay%3A+Streak+accountability+platform+(60%2B+users).;Core+Stack%3A+Node.js+%2F%2F+Express.js+%2F%2F+React.js+%2F%2F+C%2B%2B.;Solving+DSA+consistently+(300%2B+problems+in+C%2B%2B).;Building+scalable+products%2C+not+just+simple+projects.)](https://git.io/typing-svg)
 
-<br/><br/>
+<br/>
 
 <img src="./architecture_schematic.svg" width="100%" alt="Vansh Vijay Banner" />
 
@@ -10,7 +10,7 @@
 
 <img src="https://vanshvijay.me/api/telemetry/live" width="100%" alt="Live System Telemetry" />
 
-<br/><br/>
+<br/>
 
 </div>
 
