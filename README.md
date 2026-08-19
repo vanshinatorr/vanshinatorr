@@ -118,10 +118,10 @@
 <table width="100%">
 <tr>
 <td width="50%" align="center">
-  <img src="./capability_matrix_v4.svg" width="100%" alt="Expertise" />
+  <img src="./capability_matrix_v4.svg?v=5" width="100%" alt="Expertise" />
 </td>
 <td width="50%" align="center">
-  <img src="./streak_stats.svg?v=2" width="100%" alt="GitHub Streak Stats" />
+  <img src="./streak_stats.svg?v=5" width="100%" alt="GitHub Streak Stats" />
 </td>
 </tr>
 </table>
