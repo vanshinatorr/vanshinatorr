@@ -32,6 +32,10 @@
 
 ### Production Modules
 
+<table width="100%">
+<tr>
+<td>
+
 ### `module/consistpay` — Coding Streak Platform (Live)
 > [Live Platform](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
 
@@ -46,7 +50,15 @@ A production-deployed application designed to solve developer inconsistency usin
 *   **Query Latency:** `< 5ms` database execution on index-optimized log lookups.
 *   **Request Load:** Scaled to handle `100+ req/sec` using in-memory queues.
 
+</td>
+</tr>
+</table>
+
 ---
+
+<table width="100%">
+<tr>
+<td>
 
 ### `module/chess-multiplayer` — Real-Time Game Lobby
 > [Play Live Game](https://chess-multiplayer-y54n.onrender.com) • [Source Code](https://github.com/vanshinatorr/chess-multiplayer)
@@ -61,7 +73,15 @@ A low-latency multiplayer chess platform with dynamic room codes and matchmaking
 *   **Sync Latency:** Sub-`15ms` real-time move synchronization via custom Socket.IO packets.
 *   **Payload Size:** Optimized JSON packets to keep data transfers under `200 bytes` per move.
 
+</td>
+</tr>
+</table>
+
 ---
+
+<table width="100%">
+<tr>
+<td>
 
 ### `module/telemetry-cache-streamer` — System Metric Spooler
 > [Source Code](https://github.com/vanshinatorr/telemetry-cache-streamer)
@@ -76,13 +96,25 @@ A background utility in C++17 to buffer, throttle, and serialize system telemetr
 *   **Heap Limit:** Capped strictly to `16MB` memory footprint.
 *   **Thread Blocking:** Reduced thread block states by 78% compared to single-mutex structures.
 
+</td>
+</tr>
+</table>
+
 ---
 
 ### Contact & Candidate API Endpoints
 
-> **How to Connect:**
-> *   **If you are a Recruiter / HR:** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
-> *   **If you are a Developer / Tech Lead:** Copy the commands below to query my live metadata or send a hire ping directly to my Discord via your terminal!
+<table width="100%">
+<tr>
+<td>
+
+**How to Connect:**
+*   **If you are a Recruiter / HR:** Click here to [**Email me directly**](mailto:vanshvijay9784@gmail.com) or connect on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/). (Zero steps required!)
+*   **If you are a Developer / Tech Lead:** Copy the commands below to query my live metadata or send a hire ping directly to my Discord via your terminal!
+
+</td>
+</tr>
+</table>
 
 ```http
 GET https://vanshvijay.me/api/candidate/profile
