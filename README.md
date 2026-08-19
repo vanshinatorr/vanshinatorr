@@ -114,7 +114,7 @@
 
 <p align="center">
   <img src="./streak_stats.svg" width="49%" alt="GitHub Streak Stats" />
-  <img src="./capability_matrix.svg?v=3" width="49%" />
+  <img src="./capability_matrix_v2.svg" width="49%" />
 </p>
 
 <p align="center">
