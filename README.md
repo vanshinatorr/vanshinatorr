@@ -91,9 +91,10 @@
 
 ### Contact & Console Interface
 
+<div align="center">
 <table width="100%">
 <tr>
-<td>
+<td align="left">
 
 **Connection Routing:**
 *   **Recruiters:** Connect via [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or send an [**Email**](mailto:vanshvijay9784@gmail.com) for SDE opportunities.
@@ -105,6 +106,7 @@
 </td>
 </tr>
 </table>
+</div>
 
 ---
 
