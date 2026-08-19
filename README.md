@@ -92,20 +92,15 @@
 ### Contact & Console Interface
 
 <div align="center">
-<table width="100%">
-<tr>
-<td align="left">
 
-**Connection Routing:**
-*   **Recruiters:** Connect via [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or send an [**Email**](mailto:vanshvijay9784@gmail.com) for SDE opportunities.
-*   **Developers:** Run this command in your terminal to boot my SDE console:
-    ```bash
-    npx vansh-vijay
-    ```
+`npx vansh-vijay`
 
-</td>
-</tr>
-</table>
+<sub>Run in terminal to boot SDE console</sub>
+
+<br/><br/>
+
+[**LinkedIn Profile**](https://www.linkedin.com/in/vansh-vijay/) &nbsp;•&nbsp; [**Direct Email**](mailto:vanshvijay9784@gmail.com)
+
 </div>
 
 ---
