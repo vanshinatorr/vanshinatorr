@@ -93,13 +93,15 @@
 
 <div align="center">
 
-`npx vansh-vijay`
+Connect directly via LinkedIn/Email, or run this command to boot my interactive terminal portfolio:
 
-<sub>Run in terminal to boot SDE console</sub>
+<br/>
+
+`❯ npx vansh-vijay`
 
 <br/><br/>
 
-[**LinkedIn Profile**](https://www.linkedin.com/in/vansh-vijay/) &nbsp;•&nbsp; [**Direct Email**](mailto:vanshvijay9784@gmail.com)
+[**LinkedIn Profile**](https://www.linkedin.com/in/vansh-vijay/) &nbsp;&nbsp;•&nbsp;&nbsp; [**Direct Email**](mailto:vanshvijay9784@gmail.com)
 
 </div>
 
