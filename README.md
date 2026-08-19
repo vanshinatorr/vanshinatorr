@@ -96,8 +96,8 @@
 <td>
 
 **Connection Routing:**
-*   **Non-Technical Recruiters:** Connect directly on [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or send an [**Email**](mailto:vanshvijay9784@gmail.com) for SDE roles, opportunities, or inquiries.
-*   **Technical SDE Leads:** Run this command in your local terminal to boot up my interactive console profile:
+*   **Recruiters:** Connect via [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or send an [**Email**](mailto:vanshvijay9784@gmail.com).
+*   **Developers:** Run this command in your terminal:
     ```bash
     npx vansh-vijay
     ```
