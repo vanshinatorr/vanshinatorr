@@ -102,6 +102,9 @@
 </tr>
 </table>
 
+### `GET` candidate profile metadata
+> **Human Readout:** Serves Vansh's live availability status, target roles, and primary email address as standard structured data.
+
 ```http
 GET https://vanshvijay.me/api/candidate/profile
 ```
@@ -122,6 +125,9 @@ Access-Control-Allow-Origin: *
   "contact_email": "vanshvijay9784@gmail.com"
 }
 ```
+
+### `POST` candidate hire notification
+> **Human Readout:** A direct server-to-phone pager line. Recruiting tools or scripts can query this API to instantly dispatch an active job opening alert to Vansh's personal Discord workspace.
 
 ```http
 POST https://vanshvijay.me/api/candidate/hire
