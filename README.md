@@ -89,7 +89,7 @@
 
 ---
 
-<h3 align="center">Contact & Console Interface</h3>
+<h3 align="center">Contact Me</h3>
 
 <div align="center">
 
