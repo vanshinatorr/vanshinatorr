@@ -101,7 +101,7 @@
 
 <br/><br/>
 
-[**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) &nbsp;&nbsp;•&nbsp;&nbsp; [**Email**](mailto:vanshvijay9784@gmail.com)
+<a href="https://www.linkedin.com/in/vansh-vijay/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-1e293b?style=for-the-badge&amp;logo=linkedin&amp;logoColor=38bdf8" alt="LinkedIn" /></a> &nbsp;&nbsp;&nbsp;&nbsp; <a href="mailto:vanshvijay9784@gmail.com"><img src="https://img.shields.io/badge/Email-1e293b?style=for-the-badge&amp;logo=gmail&amp;logoColor=38bdf8" alt="Email" /></a>
 
 </div>
 
