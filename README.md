@@ -96,8 +96,8 @@
 <td>
 
 **Connection Routing:**
-*   **Recruiters:** Connect via [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or send an [**Email**](mailto:vanshvijay9784@gmail.com).
-*   **Developers:** Run this command in your terminal:
+*   **Recruiters:** Connect via [**LinkedIn**](https://www.linkedin.com/in/vansh-vijay/) or send an [**Email**](mailto:vanshvijay9784@gmail.com) for SDE opportunities.
+*   **Developers:** Run this command in your terminal to boot my SDE console:
     ```bash
     npx vansh-vijay
     ```
