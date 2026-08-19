@@ -18,7 +18,7 @@
 
 ---
 
-### Production Modules
+<h3 align="center">Production Modules</h3>
 
 <table width="100%">
 <tr>
@@ -89,7 +89,7 @@
 
 ---
 
-### Contact & Console Interface
+<h3 align="center">Contact & Console Interface</h3>
 
 <div align="center">
 
@@ -107,7 +107,7 @@
 
 ---
 
-### Runtime Metrics & Analytics
+<h3 align="center">Runtime Metrics & Analytics</h3>
 
 <p align="center">
   <img src="./capability_matrix_v4.svg" width="100%" alt="Capability Matrix" />
