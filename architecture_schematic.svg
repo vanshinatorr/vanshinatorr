@@ -86,43 +86,43 @@
     <!-- Box 1: Client UI -->
     <g class="flow-group">
       <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">CLIENT INTERFACE [ Next.js / React / Tailwind ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">HMR / Responsive UI / SPA Router</text>
+      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">CLIENT UI [ React / Next.js / Tailwind ]</text>
+      <text x="338" y="15" class="detail-text" style="text-anchor: end;">SPA Router / Responsive / State Management</text>
     </g>
     
     <!-- Arrow 1 -->
     <line x1="175" y1="24" x2="175" y2="40" stroke="#334155" stroke-width="1" />
     <polygon points="175,40 172,36 178,36" fill="#334155" />
-
+ 
     <!-- Box 2: Server Gateway -->
     <g class="flow-group" transform="translate(0, 40)">
       <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">API GATEWAY [ Express.js (REST) / Socket.IO (WS) ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">JWT Auth / Low-Latency Socket Rooms</text>
+      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">BACKEND API [ Node.js / Express / REST APIs ]</text>
+      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Secure JWT Auth / Scalable MVC Controller</text>
     </g>
-
+ 
     <!-- Arrow 2 -->
     <line x1="175" y1="64" x2="175" y2="80" stroke="#334155" stroke-width="1" />
     <polygon points="175,80 172,76 178,76" fill="#334155" />
-
+ 
     <!-- Box 3: Database & Integrations -->
     <g class="flow-group" transform="translate(0, 80)">
       <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">DATA SHARD [ MongoDB / Razorpay Webhooks ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Transactional Hooks / DB Indexing</text>
+      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">DATABASE &amp; API [ MongoDB / Razorpay / Gemini ]</text>
+      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Mongoose Hooks / Payment Gateways / AI Agents</text>
     </g>
   </g>
-
+ 
   <!-- RIGHT COLUMN: System Specifications & Identity -->
   <g transform="translate(405, 0)">
     <text x="0" y="58" class="label-meta">02 / CORE SPECIFICATIONS</text>
     
     <g transform="translate(0, 80)" class="text-specs">
       <g class="spec-row"><text x="0" y="5">DEVELOPER   : <tspan class="spec-value">Vansh Vijay</tspan></text></g>
-      <g class="spec-row"><text x="0" y="30">SPECIALTY   : <tspan class="spec-value">Node.js &amp; Real-time Backends</tspan></text></g>
+      <g class="spec-row"><text x="0" y="30">SPECIALTY   : <tspan class="spec-value">MERN / Full-Stack Development</tspan></text></g>
       <g class="spec-row"><text x="0" y="55">DSA ENGINE  : <tspan class="spec-value">300+ Problems Solved</tspan> <tspan class="spec-tag">[C++]</tspan></text></g>
-      <g class="spec-row"><text x="0" y="80">ACTIVE APP  : <tspan class="spec-value">ConsistPay (60+ Active Users)</tspan></text></g>
-      <g class="spec-row"><text x="0" y="105">MATCHMAKER : <tspan class="spec-value">Chess (Real-time Socket.IO Sync)</tspan></text></g>
+      <g class="spec-row"><text x="0" y="80">ACTIVE APP  : <tspan class="spec-value">ConsistPay (100+ Students)</tspan></text></g>
+      <g class="spec-row"><text x="0" y="105">REAL-TIME   : <tspan class="spec-value">Chess Platform (Socket.IO)</tspan></text></g>
     </g>
   </g>
 

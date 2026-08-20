@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=Building+backends%2C+API+pipelines%2C+and+real-time+apps.;ConsistPay%3A+Streak+accountability+platform+(100%2B+users).;Core+Stack%3A+Node.js+%2F%2F+Express.js+%2F%2F+React.js+%2F%2F+C%2B%2B.;Solving+DSA+consistently+(300%2B+problems+in+C%2B%2B).;Building+scalable+products%2C+not+just+simple+projects." width="100%" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=Building+backends%2C+API+pipelines%2C+and+real-time+apps.;ConsistPay%3A+Streak+accountability+platform+(100%2B+users).;Core+Stack%3A+React.js+%2F%2F+Node.js+%2F%2F+Express.js+%2F%2F+MongoDB.;MERN+Developer+%7C+Building+ConsistPay+%7C+300%2B+DSA+Problems+in+C%2B%2B;Building+scalable+products%2C+not+just+simple+projects." width="100%" alt="Typing SVG" />
 </a>
 
 <br/>
