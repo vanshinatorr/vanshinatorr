@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=Building+backends%2C+API+pipelines%2C+and+real-time+apps.;ConsistPay%3A+Streak+accountability+platform+(60%2B+users).;Core+Stack%3A+Node.js+%2F%2F+Express.js+%2F%2F+React.js+%2F%2F+C%2B%2B.;Solving+DSA+consistently+(300%2B+problems+in+C%2B%2B).;Building+scalable+products%2C+not+just+simple+projects." width="100%" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=Building+backends%2C+API+pipelines%2C+and+real-time+apps.;ConsistPay%3A+Streak+accountability+platform+(100%2B+users).;Core+Stack%3A+Node.js+%2F%2F+Express.js+%2F%2F+React.js+%2F%2F+C%2B%2B.;Solving+DSA+consistently+(300%2B+problems+in+C%2B%2B).;Building+scalable+products%2C+not+just+simple+projects." width="100%" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -28,7 +28,7 @@
 > [Live Deployment](https://daily-coding-habit-tracker.vercel.app) • [Source Code](https://github.com/vanshinatorr/Daily-coding-habit-tracker)
 
 **Operational Context:**
-*   A production accountability application designed to enforce developer consistency using financial stakes. Currently serving **60+ active users**.
+*   A production accountability application designed to enforce developer consistency using financial stakes. Currently serving **100+ active users**.
 
 **Engineering Solves:**
 *   **Concurrency Locks:** Prevented duplicate check-in streak claims by implementing unique database index constraints and atomic MongoDB operators (`$set`, `$setOnInsert`).
