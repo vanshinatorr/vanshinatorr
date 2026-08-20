@@ -1,16 +1,12 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=Building+backends%2C+API+pipelines%2C+and+real-time+apps.;ConsistPay%3A+Streak+accountability+platform+(100%2B+users).;Core+Stack%3A+React.js+%2F%2F+Node.js+%2F%2F+Express.js+%2F%2F+MongoDB.;MERN+Developer+%7C+Building+ConsistPay+%7C+300%2B+DSA+Problems+in+C%2B%2B;Building+scalable+products%2C+not+just+simple+projects." width="100%" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=MERN+%2F+Full-Stack+Developer;ConsistPay%3A+Streak+accountability+platform+(100%2B+users).;Solved+300%2B+DSA+Problems+in+C%2B%2B.;Building+scalable+products%2C+not+just+simple+projects." width="100%" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <img src="./architecture_schematic.svg?v=3" width="100%" alt="Vansh Vijay Banner" />
-
-<br/>
-
-<img src="https://vanshvijay.me/api/telemetry/live" width="100%" alt="Live System Telemetry" />
 
 <br/>
 

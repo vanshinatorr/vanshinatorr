@@ -82,34 +82,45 @@
   <!-- LEFT COLUMN: System Architecture Diagram (Flowchart) -->
   <text x="20" y="58" class="label-meta">01 / SYSTEM STACK PIPELINE</text>
   
-  <g transform="translate(20, 70)">
+  <g transform="translate(20, 60)">
     <!-- Box 1: Client UI -->
     <g class="flow-group">
       <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">CLIENT UI [ React / Next.js / Tailwind ]</text>
+      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">CLIENT UI [ React / Next.js / Tailwind CSS ]</text>
       <text x="338" y="15" class="detail-text" style="text-anchor: end;">SPA Router / Responsive / State Management</text>
     </g>
     
     <!-- Arrow 1 -->
-    <line x1="175" y1="24" x2="175" y2="40" stroke="#334155" stroke-width="1" />
-    <polygon points="175,40 172,36 178,36" fill="#334155" />
+    <line x1="175" y1="24" x2="175" y2="34" stroke="#334155" stroke-width="1" />
+    <polygon points="175,34 172,30 178,30" fill="#334155" />
  
-    <!-- Box 2: Server Gateway -->
-    <g class="flow-group" transform="translate(0, 40)">
+    <!-- Box 2: Backend API -->
+    <g class="flow-group" transform="translate(0, 34)">
       <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
       <text x="12" y="15" class="text-diagram" style="text-anchor: start;">BACKEND API [ Node.js / Express / REST APIs ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Secure JWT Auth / Scalable MVC Controller</text>
+      <text x="338" y="15" class="detail-text" style="text-anchor: end;">JWT Security / MVC Architecture / CRUD</text>
     </g>
  
     <!-- Arrow 2 -->
-    <line x1="175" y1="64" x2="175" y2="80" stroke="#334155" stroke-width="1" />
-    <polygon points="175,80 172,76 178,76" fill="#334155" />
+    <line x1="175" y1="58" x2="175" y2="68" stroke="#334155" stroke-width="1" />
+    <polygon points="175,68 172,64 178,64" fill="#334155" />
  
-    <!-- Box 3: Database & Integrations -->
-    <g class="flow-group" transform="translate(0, 80)">
+    <!-- Box 3: Database Layer -->
+    <g class="flow-group" transform="translate(0, 68)">
       <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">DATABASE &amp; SERVICES [ MongoDB / Razorpay / Gemini ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Mongoose Hooks / Payment Gateways / AI Agents</text>
+      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">DATABASE LAYER [ MongoDB / Mongoose ORM ]</text>
+      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Indexing / Validation / Schema Models</text>
+    </g>
+ 
+    <!-- Arrow 3 -->
+    <line x1="175" y1="92" x2="175" y2="102" stroke="#334155" stroke-width="1" />
+    <polygon points="175,102 172,98 178,98" fill="#334155" />
+ 
+    <!-- Box 4: Integrations -->
+    <g class="flow-group" transform="translate(0, 102)">
+      <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">INTEGRATIONS [ Razorpay / Gemini AI API ]</text>
+      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Webhook Receiver / Dynamic AI Prompts</text>
     </g>
   </g>
  
