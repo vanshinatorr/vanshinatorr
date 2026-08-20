@@ -1,12 +1,16 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=MERN+%2F+Full-Stack+Developer;ConsistPay%3A+Streak+accountability+platform+(100%2B+users).;Solved+300%2B+DSA+Problems+in+C%2B%2B.;Building+scalable+products%2C+not+just+simple+projects." width="100%" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=MERN+%2F+Full-Stack+Developer;ConsistPay%3A+Streak+accountability+platform.;300%2B+DSA+Problems+Solved+in+C%2B%2B.;Building+real+products%2C+not+just+projects." width="100%" alt="Typing SVG" />
 </a>
 
 <br/>
 
 <img src="./architecture_schematic.svg?v=3" width="100%" alt="Vansh Vijay Banner" />
+
+<br/>
+
+<img src="https://vanshvijay.me/api/telemetry/live" width="100%" alt="Console Build Status" />
 
 <br/>
 

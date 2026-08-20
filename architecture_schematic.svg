@@ -108,7 +108,7 @@
     <!-- Box 3: Database Layer -->
     <g class="flow-group" transform="translate(0, 68)">
       <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
-      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">DATABASE LAYER [ MongoDB / Mongoose ORM ]</text>
+      <text x="12" y="15" class="text-diagram" style="text-anchor: start;">DATABASE LAYER [ MongoDB / Mongoose ODM ]</text>
       <text x="338" y="15" class="detail-text" style="text-anchor: end;">Indexing / Validation / Schema Models</text>
     </g>
  
