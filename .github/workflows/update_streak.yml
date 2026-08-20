@@ -21,12 +21,12 @@ jobs:
       - name: Fetch and Validate Streak SVG
         run: |
           curl -f -s -o temp_streak.svg "https://streak-stats.demolab.com?user=vanshinatorr&background=0d0e12&border=1e293b&stroke=334155&ring=38bdf8&fire=38bdf8&currStreakNum=e2e8f0&sideNums=cbd5e1&sideLabels=94a3b8&dates=64748b&hide_border=false&date_format=j%20M%5B%20Y%5D"
-          if [ $? -eq 0 ] && [ -s temp_streak.svg ] && grep -q "<svg" temp_streak.svg; then
+          if [ $? -eq 0 ] && [ -s temp_streak.svg ] && grep -q "<svg" temp_streak.svg && ! grep -q "Failed to retrieve" temp_streak.svg; then
             python3 .github/scripts/post_process_streak.py
             mv temp_streak.svg streak_stats.svg
             echo "Validation passed. Streak stats SVG cache updated."
           else
-            echo "Validation failed (Server returned 503/Error). Retaining previous cached SVG to prevent profile display errors."
+            echo "Validation failed (Server returned 503/Error or API failure). Retaining previous cached SVG to prevent profile display errors."
             rm -f temp_streak.svg
           fi
 
