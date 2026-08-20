@@ -85,60 +85,59 @@
   <g transform="translate(20, 60)">
     <!-- Box 1: Client UI -->
     <g class="flow-group">
-      <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <rect class="flow-box" x="0" y="0" width="340" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
       <text x="12" y="15" class="text-diagram" style="text-anchor: start;">CLIENT UI [ React / Next.js / Tailwind CSS ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">SPA Router / Responsive / State Management</text>
+      <text x="328" y="15" class="detail-text" style="text-anchor: end;">SPA Router / Responsive / State Management</text>
     </g>
     
     <!-- Arrow 1 -->
-    <line x1="175" y1="24" x2="175" y2="34" stroke="#334155" stroke-width="1" />
-    <polygon points="175,34 172,30 178,30" fill="#334155" />
+    <line x1="170" y1="24" x2="170" y2="34" stroke="#334155" stroke-width="1" />
+    <polygon points="170,34 167,30 173,30" fill="#334155" />
  
     <!-- Box 2: Backend API -->
     <g class="flow-group" transform="translate(0, 34)">
-      <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <rect class="flow-box" x="0" y="0" width="340" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
       <text x="12" y="15" class="text-diagram" style="text-anchor: start;">BACKEND API [ Node.js / Express / REST APIs ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">JWT Security / MVC Architecture / CRUD</text>
+      <text x="328" y="15" class="detail-text" style="text-anchor: end;">JWT Security / MVC Architecture / CRUD</text>
     </g>
  
     <!-- Arrow 2 -->
-    <line x1="175" y1="58" x2="175" y2="68" stroke="#334155" stroke-width="1" />
-    <polygon points="175,68 172,64 178,64" fill="#334155" />
+    <line x1="170" y1="58" x2="170" y2="68" stroke="#334155" stroke-width="1" />
+    <polygon points="170,68 167,64 173,64" fill="#334155" />
  
     <!-- Box 3: Database Layer -->
     <g class="flow-group" transform="translate(0, 68)">
-      <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <rect class="flow-box" x="0" y="0" width="340" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
       <text x="12" y="15" class="text-diagram" style="text-anchor: start;">DATABASE LAYER [ MongoDB / Mongoose ODM ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Indexing / Validation / Schema Models</text>
+      <text x="328" y="15" class="detail-text" style="text-anchor: end;">Indexing / Validation / Schema Models</text>
     </g>
  
     <!-- Arrow 3 -->
-    <line x1="175" y1="92" x2="175" y2="102" stroke="#334155" stroke-width="1" />
-    <polygon points="175,102 172,98 178,98" fill="#334155" />
+    <line x1="170" y1="92" x2="170" y2="102" stroke="#334155" stroke-width="1" />
+    <polygon points="170,102 167,98 173,98" fill="#334155" />
  
     <!-- Box 4: Integrations -->
     <g class="flow-group" transform="translate(0, 102)">
-      <rect class="flow-box" x="0" y="0" width="350" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
+      <rect class="flow-box" x="0" y="0" width="340" height="24" fill="#0f172a" stroke="#1e293b" stroke-width="1" />
       <text x="12" y="15" class="text-diagram" style="text-anchor: start;">INTEGRATIONS [ Razorpay / Gemini AI API ]</text>
-      <text x="338" y="15" class="detail-text" style="text-anchor: end;">Webhook Receiver / Dynamic AI Prompts</text>
+      <text x="328" y="15" class="detail-text" style="text-anchor: end;">Webhook Receiver / Dynamic AI Prompts</text>
     </g>
   </g>
  
   <!-- RIGHT COLUMN: System Specifications & Identity -->
-  <g transform="translate(405, 0)">
+  <g transform="translate(420, 0)">
     <text x="0" y="58" class="label-meta">02 / CORE SPECIFICATIONS</text>
     
-    <g transform="translate(0, 80)" class="text-specs">
+    <g transform="translate(0, 75)" class="text-specs">
       <g class="spec-row"><text x="0" y="5">DEVELOPER   : <tspan class="spec-value">Vansh Vijay</tspan></text></g>
-      <g class="spec-row"><text x="0" y="30">EDUCATION   : <tspan class="spec-value">B.Tech CSE (CGPA: 7.75)</tspan></text></g>
-      <g class="spec-row"><text x="0" y="55">EXPERIENCE  : <tspan class="spec-value">Full-Stack Intern (Plasmid)</tspan></text></g>
-      <g class="spec-row"><text x="0" y="80">ACTIVE APP  : <tspan class="spec-value">ConsistPay (100+ Students)</tspan></text></g>
-      <g class="spec-row"><text x="0" y="105">CREDENTIALS : <tspan class="spec-value">GCP &amp; MongoDB Certified</tspan></text></g>
+      <g class="spec-row"><text x="0" y="32">EDUCATION   : <tspan class="spec-value">B.Tech CSE (CGPA: 7.75)</tspan></text></g>
+      <g class="spec-row"><text x="0" y="59">EXPERIENCE  : <tspan class="spec-value">Full-Stack Intern (Plasmid)</tspan></text></g>
+      <g class="spec-row"><text x="0" y="86">ACTIVE APP  : <tspan class="spec-value">ConsistPay</tspan></text></g>
+      <g class="spec-row"><text x="0" y="113">CREDENTIALS : <tspan class="spec-value">GCP &amp; MongoDB Certified</tspan></text></g>
     </g>
   </g>
-
+ 
   <!-- Bottom Details Bar -->
   <line x1="0" y1="196" x2="800" y2="196" stroke="#1e293b" stroke-width="1" />
   <text x="20" y="209" class="label-meta">BUILDING REAL PRODUCTS, NOT JUST PROJECTS.</text>
-  <text x="780" y="209" class="label-meta" text-anchor="end">LOC: JAIPUR, IN</text>
 </svg>

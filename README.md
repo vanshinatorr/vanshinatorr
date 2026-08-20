@@ -10,9 +10,7 @@
 
 <br/>
 
-<img src="https://vanshvijay.me/api/telemetry/live" width="100%" alt="Console Build Status" />
-
-<br/>
+<img src="https://vanshvijay.me/api/telemetry/live?v=2" width="100%" alt="Console Build Status" />
 
 </div>
 
