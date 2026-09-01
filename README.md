@@ -4,7 +4,7 @@
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&amp;weight=700&amp;size=19&amp;pause=1000&amp;duration=4000&amp;color=38bdf8&amp;center=true&amp;vCenter=true&amp;width=800&amp;height=40&amp;lines=MERN+%2F+Full-Stack+Developer;ConsistPay%3A+Streak+accountability+platform.;300%2B+DSA+Problems+Solved.;Building+real+products%2C+not+just+projects." width="100%" alt="Typing SVG" />
 </a>
 
-<img src="https://vanshvijay.me/api/telemetry/live?v=30" width="100%" alt="Vansh Vijay System Architecture &amp; Telemetry" />
+<img src="https://vanshvijay.me/api/telemetry/live?v=32" width="100%" alt="Vansh Vijay System Architecture &amp; Telemetry" />
 
 </div>
 <h3 align="center">Production Modules</h3>
